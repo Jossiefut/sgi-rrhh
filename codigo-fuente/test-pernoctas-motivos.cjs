@@ -1,0 +1,40 @@
+/* Pernoctas: categorías de motivo editables por RRHH / Administrador; «Otro» manual */
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const html = '<!doctype html><html><head></head><body>' + fs.readFileSync('talento-balu.html', 'utf8') + '</body></html>';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const espera = (ms = 60) => new Promise((r) => setTimeout(r, ms));
+const abrir = (estado) => new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true, url: 'https://ejemplo.test/', beforeParse(w) { w.scrollTo = () => {}; w.matchMedia = w.matchMedia || (() => ({ matches: false, addListener() {}, removeListener() {}, addEventListener() {}, removeEventListener() {} })); if (estado) w.localStorage.setItem('talento-balu-v2', estado); } });
+(async () => {
+  let dom = abrir(); await espera(300); let w = dom.window, d = w.document;
+  const mk = () => ({ click: async (el) => { el.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(100); }, b: (t) => [...d.querySelectorAll('button')].find((x) => x.textContent.trim().includes(t)) });
+  let h = mk();
+  const poner = (el, v, ev = 'input') => { const p = Object.getPrototypeOf(el); Object.getOwnPropertyDescriptor(p, 'value').set.call(el, v); el.dispatchEvent(new w.Event(ev, { bubbles: true })); };
+  const irPern = async () => h.click([...d.querySelectorAll('aside nav button')].find((x) => x.textContent.trim().startsWith('Pernoctas')));
+  await h.click(h.b('Gerente de RRHH')); await espera(200);
+  await irPern();
+  const tab = [...d.querySelectorAll('button, [role=tab]')].find((x) => x.textContent.trim().startsWith('Categorías de motivo'));
+  ok(Boolean(tab), 'RRHH ve la pestaña «Categorías de motivo»');
+  await h.click(tab);
+  ok(d.querySelectorAll('main input[aria-label^="Nombre de la categoría"]').length === 9, 'Aparecen las 9 categorías actuales (y «Otro» fija)');
+  poner(d.getElementById('pn-nueva'), 'Capacitación nocturna'); await h.click(h.b('Agregar'));
+  const reetiq = [...d.querySelectorAll('main input[aria-label^="Nombre de la categoría"]')].find((x) => x.value === 'Reetiquetado');
+  const casilla = reetiq.closest('li').querySelector('input[type=checkbox]');
+  casilla.click(); await espera(80);
+  poner(d.getElementById('pn-nueva'), 'otro'); await h.click(h.b('Agregar'));
+  ok(d.querySelectorAll('main input[aria-label^="Nombre de la categoría"]').length === 10 && /ya existe/.test(d.querySelector('main').textContent), 'No permite repetir ni crear «Otro»');
+  await h.click(h.b('Guardar')); await espera(150);
+  const st = JSON.parse(w.localStorage.getItem('talento-balu-v2'));
+  const cfg = (st.config || (st.datos && st.datos.config) || {}).motivosPernocta;
+  ok(Array.isArray(cfg) && cfg.length === 10 && cfg.some((m) => m.texto === 'Capacitación nocturna' && m.activo) && cfg.some((m) => m.texto === 'Reetiquetado' && !m.activo), 'Se guarda la nueva categoría y la desactivada');
+  dom.window.close();
+  /* El Administrador informa una pernocta con la categoría nueva */
+  dom = abrir(JSON.stringify(st)); await espera(300); w = dom.window; d = w.document; h = mk();
+  await h.click(h.b('Administrador')); await espera(200); await irPern();
+  const sel = d.getElementById('pn-motivo');
+  const ops = [...sel.options].map((o) => o.textContent);
+  ok(ops.includes('Capacitación nocturna') && !ops.includes('Reetiquetado') && ops[ops.length - 1] === 'Otro', 'El formulario ofrece las categorías activas y «Otro» al final');
+  poner(sel, 'OTRO', 'change'); await espera(80);
+  ok(Boolean(d.getElementById('pn-otro')), 'Al elegir «Otro» se escribe el motivo a mano');
+  dom.window.close();
+})().catch((e) => { console.log('FALLO', e.message, (e.stack || '').split('\n')[1]); process.exitCode = 1; });

@@ -1,0 +1,34 @@
+(async () => {
+  const P = await import('./ponderacion.js');
+  const K = await import('./kostick.js');
+  const I = await import('./ipv.js');
+  const fs = require('fs');
+  const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+  const v = (o) => Object.fromEntries(Object.entries(o).map(([k, x]) => [k, { pct: x }]));
+  ok(Object.keys(P.PONDERACIONES_INICIALES).every((c) => Object.values(P.PONDERACIONES_INICIALES[c]).reduce((a, b) => a + b, 0) === 100), 'Los tres esquemas suman 100 %');
+  ok(JSON.stringify(P.PONDERACIONES_INICIALES.SUB) === JSON.stringify({ IPV: 20, KOSTICK: 40, NINEBOX: 30, CONDUCTA: 10 }), 'Subgerente: IPV 20, Kostick 40, Nine-Box 30, conducta 10');
+  ok(JSON.stringify(P.PONDERACIONES_INICIALES.GT) === JSON.stringify({ NINEBOX: 50, KOSTICK: 30, CONDUCTA: 10, OTRA: 10 }), 'Gerente: Nine-Box 50, Kostick 30, conducta 10, otra prueba 10');
+  ok(JSON.stringify(P.PONDERACIONES_INICIALES.ASE) === JSON.stringify({ IPV: 50, BASICA: 50 }), 'Asesor: IPV 50 y evaluación básica 50');
+  let c = P.calcularPonderado(P.PONDERACIONES_INICIALES.SUB, v({ IPV: 80, KOSTICK: 70, NINEBOX: 90, CONDUCTA: 100 }));
+  ok(c.completo && c.total === 81 && c.veredicto.id === 'ALTO', 'Subgerente 80/70/90/100 → 81 % alto (' + c.total + ')');
+  c = P.calcularPonderado(P.PONDERACIONES_INICIALES.GT, v({ NINEBOX: 90, KOSTICK: 70, CONDUCTA: 100, OTRA: null }));
+  ok(c.completo && c.total === 84 && c.porDefinir.length === 1 && c.filas.find((f) => f.id === 'OTRA').pesoEfectivo === 0, 'Gerente: la otra prueba no entra y el resto se reescala (' + c.total + ' %)');
+  ok(Math.abs(c.filas.filter((f) => !f.porDefinir).reduce((a, f) => a + f.pesoEfectivo, 0) - 100) < 0.2, 'Pesos efectivos suman 100');
+  c = P.calcularPonderado(P.PONDERACIONES_INICIALES.ASE, v({ IPV: 60, BASICA: 80 }));
+  ok(c.total === 70 && c.veredicto.id === 'MEDIO', 'Asesor 60/80 → 70 % medio');
+  c = P.calcularPonderado(P.PONDERACIONES_INICIALES.SUB, v({ IPV: 80, KOSTICK: null, NINEBOX: 90, CONDUCTA: 100 }));
+  ok(!c.completo && c.total === null && c.parcial === 88 && c.pendientes.length === 1 && c.pendientes[0].id === 'KOSTICK', 'Falta un componente: sin total definitivo, parcial 88 %');
+  ok(P.puntajeConducta(0, 1) === 100 && P.puntajeConducta(1, 1) === 50 && P.puntajeConducta(2, 1) === 0 && P.puntajeConducta(5, 1) === 0, 'Conducta: 100 sin amonestaciones, 50 con una, 0 con el máximo + 1');
+  // IPV: perfil esperado
+  const resp = {}; for (let i = 1; i <= 87; i += 1) resp[i] = ['a', 'b', 'c'][i % 3];
+  const r = I.corregirIPV(resp);
+  const m = P.matchIPV(r, P.IPV_PERFILES_INICIALES.CAJ);
+  ok(m && m.filas.length === 10 && m.pct >= 0 && m.pct <= 100 && !m.filas.some((f) => ['R', 'A'].includes(f.id)), 'Match IPV: 10 escalas (sin las compuestas R y A), ' + m.pct + ' %');
+  const perfilIgual = Object.fromEntries(r.escalas.filter((e) => P.IPV_ESCALAS_MATCH.includes(e.id)).map((e) => [e.id, [P.bandaIPV(e.pt), 1]]));
+  ok(P.matchIPV(r, perfilIgual).pct === 100, 'Match IPV: un perfil idéntico al obtenido da 100 %');
+  ok(P.bandaIPV(3) === 1 && P.bandaIPV(4) === 2 && P.bandaIPV(7) === 2 && P.bandaIPV(8) === 3, 'Bandas del IPV: 1-3, 4-7, 8-10');
+  ok(['VM', 'CAJ', 'ALM', 'GT', 'DEFECTO'].every((k) => Object.keys(P.IPV_PERFILES_INICIALES[k]).length === 10), 'Perfiles IPV iniciales completos (Visual, Cajero, Depositario, Gerente y general)');
+  ok(JSON.stringify(P.IPV_DESTINOS_INICIALES) === JSON.stringify(['VM', 'CAJ', 'ALM', 'GT']), 'IPV: Visual, Cajero, Depositario y Gerente de Tienda');
+  const LEO = JSON.parse(fs.readFileSync('fixtures/kostick-leonardo.json', 'utf8'));
+  ok(K.matchKostick(K.corregirKostick(LEO), K.KOSTICK_PERFILES_INICIALES.GT).pct === 70, 'Kostick de Leonardo: 70 % frente a Gerente de Tienda');
+})();

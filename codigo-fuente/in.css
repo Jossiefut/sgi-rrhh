@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Vista resumida: solo 3 elementos hasta pulsar "Ver detalle" */
+.corte-lista > *:nth-child(n+4) { display: none; }
+.corte-tabla tbody > tr:nth-child(n+4) { display: none; }

@@ -1,0 +1,12 @@
+import { DISC_GRUPOS, corregirDISC, validarRespuestasDISC, matchDISC, DISC_PERFIL_CARGO_INICIAL } from './disc.js';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const resp = (fmas, fmenos) => { const r = {}; DISC_GRUPOS.forEach((g, i) => { r[i + 1] = { mas: g.find(([, f]) => f === fmas)[0], menos: g.find(([, f]) => f === fmenos)[0] }; }); return r; };
+let r = corregirDISC(resp('D', 'S'));
+const f = (r, x) => r.factores.find((y) => y.factor === x);
+ok(['D', 'DI'].includes(r.perfil) && f(r, 'D').grafico3 === 7 && f(r, 'S').grafico3 === 1, 'Control 1: Más D y Menos S → perfil D/DI, D=7, S=1 (' + r.perfil + ')');
+r = corregirDISC(resp('C', 'I'));
+ok(r.perfil === 'C' && r.estilo.nombre === 'Analista', 'Control 2: Más C y Menos I → «C · Analista» (' + r.perfil + ')');
+const dup = resp('D', 'S'); dup[1] = { mas: 'Directo', menos: 'Directo' };
+ok(!validarRespuestasDISC(dup).valida && validarRespuestasDISC(dup).repetidas.includes(1), 'Control 3: misma palabra en Más y Menos se rechaza');
+const m = matchDISC(corregirDISC(resp('D', 'S')), DISC_PERFIL_CARGO_INICIAL.GT);
+ok(m && typeof m.porcentaje === 'number', 'Match calculado ' + (m && m.porcentaje));

@@ -1,0 +1,5297 @@
+{
+ "admin": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Tablero",
+     "titulo": "Tablero",
+     "subtitulo": "Balú y Planeta · datos al 28/10/2026",
+     "pestanas": [],
+     "secciones": [
+      "Pendientes y avisos",
+      "Onboarding en curso (11)Ver detalle",
+      "Feedback pendiente (4)Ver detalle",
+      "Vencimientos de contrato por atender (24)Ver detalle",
+      "Plantilla y movimientos",
+      "Plantilla frente a HCVer detalleCobertura 68% · 167 vacantes · 18 tiendas bajo 70%",
+      "Ingresos del año por cargoVer detalle211 ingresos · Asesor de Ventas: 119",
+      "Egresos del año por cargoVer detalle100 egresos · Asesor de Ventas: 100",
+      "Tiendas con menor coberturaVer detallePlaneta 11 42% · Balú Tienda 18 43%",
+      "Resultados de evaluacionesVer detalle7 aprueban · 1 reprueba · 1 en proceso"
+     ],
+     "acciones": [
+      "Plantilla activa35330 tiendasVer detalle",
+      "Ver más indicadores (4)",
+      "Onboarding en curso (11)Ver detalle",
+      "Feedback pendiente (4)Ver detalle"
+     ]
+    },
+    {
+     "texto": "Recordatorios",
+     "titulo": "Recordatorios",
+     "subtitulo": "Alertas de contratos y evaluaciones. Cada persona del flujo recibe por correo las que le corresponden.",
+     "pestanas": [
+      "Mis recordatorios",
+      "Envío por correo"
+     ],
+     "secciones": [
+      "Mis recordatorios (0)"
+     ],
+     "acciones": [
+      "Mis recordatorios",
+      "Envío por correo35"
+     ]
+    },
+    {
+     "texto": "Indicadores de gestión",
+     "titulo": "Indicadores de gestión de personal",
+     "subtitulo": "Cifras al 28/10/2026 para Balú y Planeta · 30 tiendas · 353 trabajadores activos. Los períodos de 12 meses son los últimos 365 días.",
+     "pestanas": [],
+     "secciones": [
+      "Período de medición",
+      "KPI por área y estrategiaVer detalle11 áreas · 39 KPI · 2 buenos · 1 regulares · 10 malos",
+      "Dotación y rotaciónOcultar",
+      "Ingresos y egresos, últimos 12 mesesVer detalleoct 26: 12 ingresos · 15 egresos",
+      "Motivos de egreso (12 meses)Ver detalleRenuncia voluntaria: 58",
+      "Rotación por tienda (12 meses)Ver detalleMayor: Planeta 10 94%",
+      "Tiendas con menor cobertura del HCVer detalleMenor: Planeta 11 42%",
+      "Personal evaluado y su estatusVer detalle2 de 95 evaluados · 93 pendientes"
+     ],
+     "acciones": [
+      "Dotación y rotaciónOcultar",
+      "Personal activo353516 de HC aprobadoVer detalle",
+      "Rotación 12 meses33,5%100 egresosVer detalle"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Descargas en Excel"
+     ],
+     "secciones": [
+      "Cumplimiento legal: 5% de la plantilla",
+      "Detalle por tienda",
+      "Sucesión y formación (Balú)",
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Exportar a Excel",
+      "Exportar todo a Excel",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Descargas en Excel",
+      "Ver detalle (32)",
+      "Ver detalle (30)"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (26)",
+      "Documentos autenticados emitidos (0)"
+     ],
+     "acciones": [
+      "Ingreso11",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato1",
+      "Traslados y promociones6",
+      "Evaluaciones de desempeño8",
+      "Apoyos y pernoctas0",
+      "Incentivos de ventas0",
+      "Exportar a Excel",
+      "Ver",
+      "Ver detalle (26)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Requisiciones de personal",
+     "titulo": "Requisiciones de personal",
+     "subtitulo": "Se generan solas cuando sale la carta de egreso o se da de baja a un trabajador. El Gerente o el Subgerente de la tienda la firma de manera indistinta y RRHH repone la vacante.",
+     "pestanas": [
+      "En curso",
+      "Cerradas"
+     ],
+     "secciones": [
+      "Requisiciones en curso (0)"
+     ],
+     "acciones": [
+      "En curso",
+      "Cerradas"
+     ]
+    },
+    {
+     "texto": "Nuevo ingreso",
+     "titulo": "Registro de ingreso",
+     "subtitulo": "Busque primero en el listado precargado por RRHH. Al guardar se genera el kit legal de ingreso: contrato, acuerdo de responsabilidad, confidencialidad y convenio de alimentación, además del formato de ruta habitual de traslado.",
+     "pestanas": [
+      "Registrar ingreso",
+      "Listado precargado"
+     ],
+     "secciones": [
+      "1. Buscar por cédula",
+      "Precargados pendientes (6)"
+     ],
+     "acciones": [
+      "Agregar al listado precargado",
+      "Registrar ingreso",
+      "Listado precargado6",
+      "Buscar",
+      "Ver detalle (6)"
+     ]
+    },
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos",
+      "Ver documento"
+     ]
+    },
+    {
+     "texto": "Onboarding",
+     "titulo": "Onboarding",
+     "subtitulo": "Plan de onboarding de 28 días al dar de alta a un trabajador (expectativas a los 28 y 120 días) y Programa de Formación al cargo, de X días fijados por RRHH, en cada promoción. Lo firma el supervisor directo.",
+     "pestanas": [
+      "En curso",
+      "Completados",
+      "Plantillas por cargo"
+     ],
+     "secciones": [],
+     "acciones": [
+      "En curso11",
+      "Completados",
+      "Plantillas por cargo",
+      "Ver detalle (11)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Directorio",
+     "titulo": "Directorio",
+     "subtitulo": "383 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Nuevo ingreso",
+      "Ver detalle (383)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Balú y Planeta · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Por tienda",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semanaVer detalle15 ingresos · 15 egresos en el período",
+      "Ingresos por marca y cargoVer detalleAsesor de Ventas: 11 · Subgerente: 3"
+     ],
+     "acciones": [
+      "Exportar ingresos (CSV)",
+      "Comparativo",
+      "Solo ingresos15",
+      "Solo egresos15",
+      "Por tienda",
+      "Detalle de ingresos15",
+      "Detalle de egresos15",
+      "Análisis de egresos",
+      "Ver detalle (32)"
+     ]
+    },
+    {
+     "texto": "Reporte de egresos",
+     "titulo": "Reporte de egresos",
+     "subtitulo": "Reporte la salida de un trabajador, indique el motivo y cargue la carta de renuncia. El abandono de trabajo lo declara el Gerente o Subgerente.",
+     "pestanas": [],
+     "secciones": [
+      "Reportar el egreso de un trabajador",
+      "Egresos reportados"
+     ],
+     "acciones": [
+      "Reportar egreso",
+      "Ver"
+     ]
+    },
+    {
+     "texto": "Solicitudes",
+     "titulo": "Solicitudes",
+     "subtitulo": "Traslados, promociones y desincorporaciones con aprobación por etapas.",
+     "pestanas": [
+      "Pendientes de mi aprobación",
+      "Creadas por mí",
+      "Todas"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Nueva solicitud",
+      "Pendientes de mi aprobación3",
+      "Creadas por mí1",
+      "Todas5"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Contratación y relaciones laborales",
+   "modulos": [
+    {
+     "texto": "Prueba y contratos",
+     "titulo": "Período de prueba y contratos",
+     "subtitulo": "Período de prueba: días 15, 22 y 28 · prosecución: días 70, 80 y 90 · pase a fijo: días 150, 170 y 180 (verde, amarilla y roja)",
+     "pestanas": [
+      "Por atender",
+      "En aprobación",
+      "Historial"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por atender24",
+      "En aprobación1",
+      "Historial",
+      "Evaluar",
+      "Ver detalle (24)"
+     ]
+    },
+    {
+     "texto": "Emitir amonestación",
+     "titulo": "Emitir amonestación",
+     "subtitulo": "Elija el literal del artículo 79 de la LOTTT que describe la falta y escriba los hechos: el sistema redacta el documento.",
+     "pestanas": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas"
+     ],
+     "secciones": [
+      "Nueva amonestación"
+     ],
+     "acciones": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas",
+      "Vista previa",
+      "Registrar y generar documento"
+     ]
+    },
+    {
+     "texto": "Carga de amonestaciones",
+     "titulo": "Carga de amonestaciones",
+     "subtitulo": "Cargue la imagen o el PDF de cada amonestación. Queda en el expediente del trabajador y puede descargarse.",
+     "pestanas": [],
+     "secciones": [
+      "Cargar una amonestación (imagen o PDF)",
+      "Amonestaciones cargadas"
+     ],
+     "acciones": [
+      "Guardar amonestación"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desempeño",
+   "modulos": [
+    {
+     "texto": "Evaluaciones",
+     "titulo": "Evaluaciones",
+     "subtitulo": "Nine-Box con calibración para los cargos definidos por RRHH (gerentes, personal de tienda y administrativo) · pruebas del portal para traslados y promociones.",
+     "pestanas": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Calibración Nine-Box",
+      "Feedback pendiente",
+      "Pendientes",
+      "Al día",
+      "Aún no elegibles",
+      "Historial",
+      "Trayectoria del trabajador"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Calibración Nine-Box",
+      "Feedback pendiente4",
+      "Pendientes102",
+      "Al día2",
+      "Aún no elegibles54",
+      "Historial4",
+      "Trayectoria del trabajador",
+      "Evaluar",
+      "Ver detalle (102)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Formación",
+   "modulos": [
+    {
+     "texto": "Formación",
+     "titulo": "Formación",
+     "subtitulo": "Catálogo de formaciones, participación por trabajador y talleres. Alimenta el plan de sucesión y el expediente.",
+     "pestanas": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ],
+     "secciones": [
+      "Participación en formaciones"
+     ],
+     "acciones": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres",
+      "Registrar participación",
+      "Anotar corrección"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desarrollo",
+   "modulos": [
+    {
+     "texto": "Plan de sucesión",
+     "titulo": "Plan de sucesión y carrera",
+     "subtitulo": "Cobertura de cargos clave y rutas de crecimiento del personal de tienda y administrativo.",
+     "pestanas": [
+      "Tienda",
+      "Administrativa",
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Tamaño de tiendas",
+      "Rutas y parámetros"
+     ],
+     "secciones": [
+      "Mapa por tienda (consolidado Balú)",
+      "Escala de cargos de tienda"
+     ],
+     "acciones": [
+      "Tienda",
+      "Administrativa",
+      "Ver con datos reales (ejemplo)",
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Tamaño de tiendas",
+      "Rutas y parámetros",
+      "Ver detalle (19)"
+     ]
+    },
+    {
+     "texto": "Clima laboral",
+     "titulo": "Clima laboral",
+     "subtitulo": "Encuestas de clima por ciclos, resultados y buzón de sugerencias de los colaboradores.",
+     "pestanas": [
+      "Resumen",
+      "Encuestas",
+      "Resultados",
+      "Buzón de sugerencias"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Resumen",
+      "Encuestas",
+      "Resultados",
+      "Buzón de sugerencias",
+      "Ir a Encuestas"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Ubicación, metraje y números de registro patronal de cada tienda. RRHH mantiene esta información.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (32)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Operación de tiendas",
+   "modulos": [
+    {
+     "texto": "Apoyos de personal",
+     "titulo": "Apoyos de personal",
+     "subtitulo": "Personal que presta labores de apoyo en otro cargo o en otra tienda. Se registra por quincena y requiere 2 de 3 aprobaciones (Marca, Operaciones, RRHH).",
+     "pestanas": [
+      "Registrar apoyo",
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores"
+     ],
+     "secciones": [
+      "Datos del apoyo",
+      "Pago en nómina"
+     ],
+     "acciones": [
+      "Registrar apoyo",
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores",
+      "Registrar y enviar"
+     ]
+    },
+    {
+     "texto": "Pernoctas",
+     "titulo": "Pernoctas",
+     "subtitulo": "El Gerente de Tienda informa cada pernocta, su motivo, quiénes participaron y si se cumplió el objetivo. Requiere la aprobación de Gerencia de Marca, Operaciones y RRHH.",
+     "pestanas": [
+      "Informar pernocta",
+      "Pernoctas",
+      "Indicadores",
+      "Categorías de motivo"
+     ],
+     "secciones": [
+      "Datos de la pernocta",
+      "Resultado",
+      "Personas que pernoctaron (0)"
+     ],
+     "acciones": [
+      "Informar pernocta",
+      "Pernoctas",
+      "Indicadores",
+      "Categorías de motivo",
+      "Parcialmente"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Compensación y beneficios",
+   "modulos": [
+    {
+     "texto": "Incentivos de ventas",
+     "titulo": "Incentivos de ventas",
+     "subtitulo": "Concursos, campañas y otros incentivos con tiendas en 1.er, 2.º y 3.er lugar. RRHH registra, Gerencia General aprueba y se emite el documento para Nómina. Participa la plantilla activa con más de 14 días de antigüedad.",
+     "pestanas": [
+      "Registrar incentivo",
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ],
+     "secciones": [
+      "Datos del incentivo",
+      "Resumen"
+     ],
+     "acciones": [
+      "Registrar incentivo",
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago",
+      "Registrar y enviar"
+     ]
+    },
+    {
+     "texto": "Modelos de compensación",
+     "titulo": "Modelos de compensación",
+     "subtitulo": "Estructura de compensación vigente en cada tienda. La ven Gerencia de Marca, Operaciones, Gerencia General, RRHH, Administrador y la Dirección Ejecutiva; solo RRHH y Gerencia General la modifican.",
+     "pestanas": [
+      "Por tienda",
+      "Modelos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Exportar a Excel",
+      "Por tienda32",
+      "Modelos",
+      "Ver detalle (32)"
+     ]
+    },
+    {
+     "texto": "Montos y autorizaciones",
+     "titulo": "Montos y autorizaciones",
+     "subtitulo": "Defina cómo se calcula el monto de lo que requiere autorización. Solo RRHH y el Administrador pueden cambiarlo.",
+     "pestanas": [],
+     "secciones": [
+      "Montos y autorizaciones",
+      "Pernocta",
+      "Apoyo de personal",
+      "Parámetros de cálculo",
+      "Probar con un trabajador"
+     ],
+     "acciones": [
+      "Guardar"
+     ]
+    },
+    {
+     "texto": "Remuneración del personal",
+     "titulo": "Remuneración del personal",
+     "subtitulo": "KPI, pesos y remuneración de toda la organización, con historial.",
+     "pestanas": [],
+     "secciones": [
+      "Cómo debe estar el archivo de Excel"
+     ],
+     "acciones": [
+      "Plantilla Excel",
+      "Importar Excel",
+      "Exportar Excel",
+      "Modelos y salarios (Excel)",
+      "Descargar plantilla con ejemplo",
+      "Ver detalle (353)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Estructura administrativa",
+     "titulo": "Estructura administrativa",
+     "subtitulo": "Organigrama, cargos, compensación y evaluación del personal administrativo de la División de Marcas Propias. Visible solo para RRHH, Administrador y Gerencia General.",
+     "pestanas": [
+      "Organigrama",
+      "Personal y cargos",
+      "Compensación",
+      "Distribución del gasto",
+      "Pruebas y Nine-Box por cargo",
+      "Datos"
+     ],
+     "secciones": [
+      "Datos de la estructura"
+     ],
+     "acciones": [
+      "Organigrama",
+      "Personal y cargos",
+      "Compensación",
+      "Distribución del gasto",
+      "Pruebas y Nine-Box por cargo",
+      "Datos",
+      "Cargar organigrama de Visio (.vsdx)",
+      "Cargar archivo JSON",
+      "Cargar contenido pegado"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración del sistema",
+   "modulos": [
+    {
+     "texto": "Sincronización de datos",
+     "titulo": "Sincronización de datos",
+     "subtitulo": "Fichas del formulario de actualización de datos y altas con la fecha de ingreso de BI. Se cruzan por cédula. No se cargan datos bancarios.",
+     "pestanas": [
+      "Estado de las fichas",
+      "Repositorios de datos",
+      "Cargar formulario",
+      "Cargar fechas de ingreso (BI)",
+      "Entrevistas de salida"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Estado de las fichas",
+      "Repositorios de datos2",
+      "Cargar formulario",
+      "Cargar fechas de ingreso (BI)",
+      "Entrevistas de salida",
+      "Falta tienda o cargo0Revise y completeVer detalle"
+     ]
+    },
+    {
+     "texto": "Trazabilidad",
+     "titulo": "Trazabilidad",
+     "subtitulo": "Quién aprobó, rechazó o ejecutó cada paso de cada flujo, y registro de todo lo que se hace en el sistema. El nombre y el rol de cada responsable quedan guardados al momento de actuar.",
+     "pestanas": [
+      "Aprobaciones por flujo",
+      "Bitácora general"
+     ],
+     "secciones": [
+      "Filtros",
+      "Quién aprobó cada flujo (17 movimientos)"
+     ],
+     "acciones": [
+      "Aprobaciones por flujo",
+      "Bitácora general",
+      "Exportar a CSV",
+      "Ver detalle (17)"
+     ]
+    },
+    {
+     "texto": "Usuarios y accesos",
+     "titulo": "Usuarios y accesos",
+     "subtitulo": "Cada persona entra con su correo y contraseña, y a ese correo le llegan los recordatorios de su flujo. El rol define lo que ve: Gerente de Tienda (su tienda), Marca y Operaciones (su marca), RRHH, General y Administrador (todo). En esta versión de prueba no se usan contraseñas.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Nuevo usuario",
+      "Editar",
+      "Ver detalle (45)"
+     ]
+    },
+    {
+     "texto": "Configuración",
+     "titulo": "Configuración",
+     "subtitulo": "Parámetros, plantillas, catálogos y bitácora del sistema.",
+     "pestanas": [
+      "Parámetros",
+      "Empresas",
+      "Plantillas",
+      "Tiendas",
+      "Cargos",
+      "Plantilla de HC",
+      "Firmantes de amonestaciones",
+      "Pruebas (Forms)",
+      "Bitácora",
+      "Datos"
+     ],
+     "secciones": [
+      "Parámetros generales"
+     ],
+     "acciones": [
+      "Parámetros",
+      "Empresas",
+      "Plantillas",
+      "Tiendas",
+      "Cargos",
+      "Plantilla de HC",
+      "Firmantes de amonestaciones",
+      "Pruebas (Forms)",
+      "Bitácora",
+      "Datos",
+      "Guardar"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de la marca elegida. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Administrador · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Contratación y relaciones laborales",
+      "Desempeño",
+      "Formación",
+      "Desarrollo",
+      "Información de tiendas",
+      "Operación de tiendas",
+      "Compensación y beneficios",
+      "Administración del sistema",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": [
+      "Descargar PDF"
+     ]
+    }
+   ]
+  }
+ ],
+ "rrhh": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Tablero",
+     "titulo": "Tablero",
+     "subtitulo": "Balú y Planeta · datos al 28/10/2026",
+     "pestanas": [],
+     "secciones": [
+      "Pendientes y avisos",
+      "Onboarding en curso (11)Ver detalle",
+      "Vencimientos de contrato por atender (24)Ver detalle",
+      "Plantilla y movimientos",
+      "Plantilla frente a HCVer detalleCobertura 68% · 167 vacantes · 18 tiendas bajo 70%",
+      "Ingresos del año por cargoVer detalle211 ingresos · Asesor de Ventas: 119",
+      "Egresos del año por cargoVer detalle100 egresos · Asesor de Ventas: 100",
+      "Tiendas con menor coberturaVer detallePlaneta 11 42% · Balú Tienda 18 43%",
+      "Resultados de evaluacionesVer detalle7 aprueban · 1 reprueba · 1 en proceso"
+     ],
+     "acciones": [
+      "Plantilla activa35330 tiendasVer detalle",
+      "Ver más indicadores (4)",
+      "Onboarding en curso (11)Ver detalle"
+     ]
+    },
+    {
+     "texto": "Recordatorios",
+     "titulo": "Recordatorios",
+     "subtitulo": "Alertas de contratos y evaluaciones. Cada persona del flujo recibe por correo las que le corresponden.",
+     "pestanas": [
+      "Mis recordatorios",
+      "Envío por correo"
+     ],
+     "secciones": [
+      "Mis recordatorios (1)"
+     ],
+     "acciones": [
+      "Mis recordatorios1",
+      "Envío por correo35",
+      "Atender"
+     ]
+    },
+    {
+     "texto": "Indicadores de gestión",
+     "titulo": "Indicadores de gestión de personal",
+     "subtitulo": "Cifras al 28/10/2026 para Balú y Planeta · 30 tiendas · 353 trabajadores activos. Los períodos de 12 meses son los últimos 365 días.",
+     "pestanas": [],
+     "secciones": [
+      "Período de medición",
+      "KPI por área y estrategiaVer detalle11 áreas · 39 KPI · 2 buenos · 1 regulares · 10 malos",
+      "Dotación y rotaciónOcultar",
+      "Ingresos y egresos, últimos 12 mesesVer detalleoct 26: 12 ingresos · 15 egresos",
+      "Motivos de egreso (12 meses)Ver detalleRenuncia voluntaria: 58",
+      "Rotación por tienda (12 meses)Ver detalleMayor: Planeta 10 94%",
+      "Tiendas con menor cobertura del HCVer detalleMenor: Planeta 11 42%",
+      "Personal evaluado y su estatusVer detalle2 de 95 evaluados · 93 pendientes"
+     ],
+     "acciones": [
+      "Dotación y rotaciónOcultar",
+      "Personal activo353516 de HC aprobadoVer detalle",
+      "Rotación 12 meses33,5%100 egresosVer detalle"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Descargas en Excel"
+     ],
+     "secciones": [
+      "Cumplimiento legal: 5% de la plantilla",
+      "Detalle por tienda",
+      "Sucesión y formación (Balú)",
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Exportar a Excel",
+      "Exportar todo a Excel",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Descargas en Excel",
+      "Aprendices INCES",
+      "Ver detalle (32)",
+      "Ver detalle (30)"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (26)",
+      "Documentos autenticados emitidos (0)"
+     ],
+     "acciones": [
+      "Ingreso11",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato1",
+      "Traslados y promociones6",
+      "Evaluaciones de desempeño8",
+      "Apoyos y pernoctas0",
+      "Incentivos de ventas0",
+      "Exportar a Excel",
+      "Ver",
+      "Ver detalle (26)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Requisiciones de personal",
+     "titulo": "Requisiciones de personal",
+     "subtitulo": "Se generan solas cuando sale la carta de egreso o se da de baja a un trabajador. El Gerente o el Subgerente de la tienda la firma de manera indistinta y RRHH repone la vacante.",
+     "pestanas": [
+      "En curso",
+      "Cerradas"
+     ],
+     "secciones": [
+      "Requisiciones en curso (0)"
+     ],
+     "acciones": [
+      "En curso",
+      "Cerradas"
+     ]
+    },
+    {
+     "texto": "Nuevo ingreso",
+     "titulo": "Registro de ingreso",
+     "subtitulo": "Busque primero en el listado precargado por RRHH. Al guardar se genera el kit legal de ingreso: contrato, acuerdo de responsabilidad, confidencialidad y convenio de alimentación, además del formato de ruta habitual de traslado.",
+     "pestanas": [
+      "Registrar ingreso",
+      "Listado precargado"
+     ],
+     "secciones": [
+      "1. Buscar por cédula",
+      "Precargados pendientes (6)"
+     ],
+     "acciones": [
+      "Agregar al listado precargado",
+      "Registrar ingreso",
+      "Listado precargado6",
+      "Buscar",
+      "Ver detalle (6)"
+     ]
+    },
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos",
+      "Ver documento"
+     ]
+    },
+    {
+     "texto": "Onboarding",
+     "titulo": "Onboarding",
+     "subtitulo": "Plan de onboarding de 28 días al dar de alta a un trabajador (expectativas a los 28 y 120 días) y Programa de Formación al cargo, de X días fijados por RRHH, en cada promoción. Lo firma el supervisor directo.",
+     "pestanas": [
+      "En curso",
+      "Completados",
+      "Plantillas por cargo"
+     ],
+     "secciones": [],
+     "acciones": [
+      "En curso11",
+      "Completados",
+      "Plantillas por cargo",
+      "Ver detalle (11)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Directorio",
+     "titulo": "Directorio",
+     "subtitulo": "383 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Nuevo ingreso",
+      "Ver detalle (383)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Balú y Planeta · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Por tienda",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semanaVer detalle15 ingresos · 15 egresos en el período",
+      "Ingresos por marca y cargoVer detalleAsesor de Ventas: 11 · Subgerente: 3"
+     ],
+     "acciones": [
+      "Exportar ingresos (CSV)",
+      "Comparativo",
+      "Solo ingresos15",
+      "Solo egresos15",
+      "Por tienda",
+      "Detalle de ingresos15",
+      "Detalle de egresos15",
+      "Análisis de egresos",
+      "Ver detalle (32)"
+     ]
+    },
+    {
+     "texto": "Reporte de egresos",
+     "titulo": "Reporte de egresos",
+     "subtitulo": "Reporte la salida de un trabajador, indique el motivo y cargue la carta de renuncia. El abandono de trabajo lo declara el Gerente o Subgerente.",
+     "pestanas": [],
+     "secciones": [
+      "Reportar el egreso de un trabajador",
+      "Egresos reportados"
+     ],
+     "acciones": [
+      "Reportar egreso",
+      "Ver"
+     ]
+    },
+    {
+     "texto": "Solicitudes",
+     "titulo": "Solicitudes",
+     "subtitulo": "Traslados, promociones y desincorporaciones con aprobación por etapas.",
+     "pestanas": [
+      "Pendientes de mi aprobación",
+      "Creadas por mí",
+      "Todas"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Nueva solicitud",
+      "Pendientes de mi aprobación3",
+      "Creadas por mí1",
+      "Todas5"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Contratación y relaciones laborales",
+   "modulos": [
+    {
+     "texto": "Prueba y contratos",
+     "titulo": "Período de prueba y contratos",
+     "subtitulo": "Período de prueba: días 15, 22 y 28 · prosecución: días 70, 80 y 90 · pase a fijo: días 150, 170 y 180 (verde, amarilla y roja)",
+     "pestanas": [
+      "Por atender",
+      "En aprobación",
+      "Historial"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por atender24",
+      "En aprobación1",
+      "Historial",
+      "Ver detalle (24)"
+     ]
+    },
+    {
+     "texto": "Emitir amonestación",
+     "titulo": "Emitir amonestación",
+     "subtitulo": "Elija el literal del artículo 79 de la LOTTT que describe la falta y escriba los hechos: el sistema redacta el documento.",
+     "pestanas": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas"
+     ],
+     "secciones": [
+      "Nueva amonestación"
+     ],
+     "acciones": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas",
+      "Vista previa",
+      "Registrar y generar documento"
+     ]
+    },
+    {
+     "texto": "Carga de amonestaciones",
+     "titulo": "Carga de amonestaciones",
+     "subtitulo": "Cargue la imagen o el PDF de cada amonestación. Queda en el expediente del trabajador y puede descargarse.",
+     "pestanas": [],
+     "secciones": [
+      "Cargar una amonestación (imagen o PDF)",
+      "Amonestaciones cargadas"
+     ],
+     "acciones": [
+      "Guardar amonestación"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desempeño",
+   "modulos": [
+    {
+     "texto": "Evaluaciones",
+     "titulo": "Evaluaciones",
+     "subtitulo": "Nine-Box con calibración para los cargos definidos por RRHH (gerentes, personal de tienda y administrativo) · pruebas del portal para traslados y promociones.",
+     "pestanas": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Calibración Nine-Box",
+      "Feedback pendiente",
+      "Pendientes",
+      "Al día",
+      "Aún no elegibles",
+      "Historial",
+      "Trayectoria del trabajador"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Calibración Nine-Box",
+      "Feedback pendiente4",
+      "Pendientes102",
+      "Al día2",
+      "Aún no elegibles54",
+      "Historial4",
+      "Trayectoria del trabajador",
+      "Ver detalle (102)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Formación",
+   "modulos": [
+    {
+     "texto": "Formación",
+     "titulo": "Formación",
+     "subtitulo": "Catálogo de formaciones, participación por trabajador y talleres. Alimenta el plan de sucesión y el expediente.",
+     "pestanas": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ],
+     "secciones": [
+      "Participación en formaciones"
+     ],
+     "acciones": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres",
+      "Registrar participación",
+      "Anotar corrección"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desarrollo",
+   "modulos": [
+    {
+     "texto": "Plan de sucesión",
+     "titulo": "Plan de sucesión y carrera",
+     "subtitulo": "Cobertura de cargos clave y rutas de crecimiento del personal de tienda y administrativo.",
+     "pestanas": [
+      "Tienda",
+      "Administrativa",
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Tamaño de tiendas",
+      "Rutas y parámetros"
+     ],
+     "secciones": [
+      "Mapa por tienda (consolidado Balú)",
+      "Escala de cargos de tienda"
+     ],
+     "acciones": [
+      "Tienda",
+      "Administrativa",
+      "Ver con datos reales (ejemplo)",
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Tamaño de tiendas",
+      "Rutas y parámetros",
+      "Ver detalle (19)"
+     ]
+    },
+    {
+     "texto": "Clima laboral",
+     "titulo": "Clima laboral",
+     "subtitulo": "Encuestas de clima por ciclos, resultados y buzón de sugerencias de los colaboradores.",
+     "pestanas": [
+      "Resumen",
+      "Encuestas",
+      "Resultados",
+      "Buzón de sugerencias"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Resumen",
+      "Encuestas",
+      "Resultados",
+      "Buzón de sugerencias",
+      "Ir a Encuestas"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Ubicación, metraje y números de registro patronal de cada tienda. RRHH mantiene esta información.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (32)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Operación de tiendas",
+   "modulos": [
+    {
+     "texto": "Apoyos de personal",
+     "titulo": "Apoyos de personal",
+     "subtitulo": "Personal que presta labores de apoyo en otro cargo o en otra tienda. Se registra por quincena y requiere 2 de 3 aprobaciones (Marca, Operaciones, RRHH).",
+     "pestanas": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores",
+      "Reporte PDF",
+      "Exportar CSV"
+     ]
+    },
+    {
+     "texto": "Pernoctas",
+     "titulo": "Pernoctas",
+     "subtitulo": "El Gerente de Tienda informa cada pernocta, su motivo, quiénes participaron y si se cumplió el objetivo. Requiere la aprobación de Gerencia de Marca, Operaciones y RRHH.",
+     "pestanas": [
+      "Pernoctas",
+      "Indicadores",
+      "Categorías de motivo"
+     ],
+     "secciones": [
+      "Pernoctas por motivo",
+      "Personas que realizaron pernoctas"
+     ],
+     "acciones": [
+      "Pernoctas",
+      "Indicadores",
+      "Categorías de motivo"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Compensación y beneficios",
+   "modulos": [
+    {
+     "texto": "Incentivos de ventas",
+     "titulo": "Incentivos de ventas",
+     "subtitulo": "Concursos, campañas y otros incentivos con tiendas en 1.er, 2.º y 3.er lugar. RRHH registra, Gerencia General aprueba y se emite el documento para Nómina. Participa la plantilla activa con más de 14 días de antigüedad.",
+     "pestanas": [
+      "Registrar incentivo",
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ],
+     "secciones": [
+      "Datos del incentivo",
+      "Resumen"
+     ],
+     "acciones": [
+      "Registrar incentivo",
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago",
+      "Registrar y enviar"
+     ]
+    },
+    {
+     "texto": "Modelos de compensación",
+     "titulo": "Modelos de compensación",
+     "subtitulo": "Estructura de compensación vigente en cada tienda. La ven Gerencia de Marca, Operaciones, Gerencia General, RRHH, Administrador y la Dirección Ejecutiva; solo RRHH y Gerencia General la modifican.",
+     "pestanas": [
+      "Por tienda",
+      "Modelos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Exportar a Excel",
+      "Importar esquema (Excel)",
+      "Nuevo modelo",
+      "Por tienda32",
+      "Modelos",
+      "Ver detalle (32)"
+     ]
+    },
+    {
+     "texto": "Montos y autorizaciones",
+     "titulo": "Montos y autorizaciones",
+     "subtitulo": "Defina cómo se calcula el monto de lo que requiere autorización. Solo RRHH y el Administrador pueden cambiarlo.",
+     "pestanas": [],
+     "secciones": [
+      "Montos y autorizaciones",
+      "Pernocta",
+      "Apoyo de personal",
+      "Parámetros de cálculo",
+      "Probar con un trabajador"
+     ],
+     "acciones": [
+      "Guardar"
+     ]
+    },
+    {
+     "texto": "Remuneración del personal",
+     "titulo": "Remuneración del personal",
+     "subtitulo": "KPI, pesos y remuneración de toda la organización, con historial.",
+     "pestanas": [],
+     "secciones": [
+      "Cómo debe estar el archivo de Excel"
+     ],
+     "acciones": [
+      "Plantilla Excel",
+      "Importar Excel",
+      "Exportar Excel",
+      "Modelos y salarios (Excel)",
+      "Descargar plantilla con ejemplo",
+      "Ver detalle (353)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Estructura administrativa",
+     "titulo": "Estructura administrativa",
+     "subtitulo": "Organigrama, cargos, compensación y evaluación del personal administrativo de la División de Marcas Propias. Visible solo para RRHH, Administrador y Gerencia General.",
+     "pestanas": [
+      "Organigrama",
+      "Personal y cargos",
+      "Compensación",
+      "Distribución del gasto",
+      "Pruebas y Nine-Box por cargo",
+      "Datos"
+     ],
+     "secciones": [
+      "Datos de la estructura"
+     ],
+     "acciones": [
+      "Organigrama",
+      "Personal y cargos",
+      "Compensación",
+      "Distribución del gasto",
+      "Pruebas y Nine-Box por cargo",
+      "Datos",
+      "Cargar organigrama de Visio (.vsdx)",
+      "Cargar archivo JSON",
+      "Cargar contenido pegado"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración del sistema",
+   "modulos": [
+    {
+     "texto": "Sincronización de datos",
+     "titulo": "Sincronización de datos",
+     "subtitulo": "Fichas del formulario de actualización de datos y altas con la fecha de ingreso de BI. Se cruzan por cédula. No se cargan datos bancarios.",
+     "pestanas": [
+      "Estado de las fichas",
+      "Repositorios de datos",
+      "Cargar formulario",
+      "Cargar fechas de ingreso (BI)",
+      "Entrevistas de salida"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Estado de las fichas",
+      "Repositorios de datos2",
+      "Cargar formulario",
+      "Cargar fechas de ingreso (BI)",
+      "Entrevistas de salida",
+      "Falta tienda o cargo0Revise y completeVer detalle",
+      "Exportar datos precargados (Excel)"
+     ]
+    },
+    {
+     "texto": "Trazabilidad",
+     "titulo": "Trazabilidad",
+     "subtitulo": "Quién aprobó, rechazó o ejecutó cada paso de cada flujo, y registro de todo lo que se hace en el sistema. El nombre y el rol de cada responsable quedan guardados al momento de actuar.",
+     "pestanas": [
+      "Aprobaciones por flujo",
+      "Bitácora general"
+     ],
+     "secciones": [
+      "Filtros",
+      "Quién aprobó cada flujo (17 movimientos)"
+     ],
+     "acciones": [
+      "Aprobaciones por flujo",
+      "Bitácora general",
+      "Exportar a CSV",
+      "Ver detalle (17)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de la marca elegida. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Gerente de RRHH · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "Descargar la aplicación en el teléfono",
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Contratación y relaciones laborales",
+      "Desempeño",
+      "Formación",
+      "Desarrollo",
+      "Información de tiendas",
+      "Operación de tiendas",
+      "Compensación y beneficios",
+      "Administración del sistema",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": [
+      "Descargar PDF"
+     ]
+    }
+   ]
+  }
+ ],
+ "analista": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Tablero",
+     "titulo": "Tablero",
+     "subtitulo": "Balú y Planeta · datos al 28/10/2026",
+     "pestanas": [],
+     "secciones": [
+      "Pendientes y avisos",
+      "Vencimientos de contrato por atender (24)Ver detalle",
+      "Plantilla y movimientos",
+      "Plantilla frente a HCVer detalleCobertura 68% · 167 vacantes · 18 tiendas bajo 70%",
+      "Ingresos del año por cargoVer detalle211 ingresos · Asesor de Ventas: 119",
+      "Egresos del año por cargoVer detalle100 egresos · Asesor de Ventas: 100",
+      "Tiendas con menor coberturaVer detallePlaneta 11 42% · Balú Tienda 18 43%",
+      "Resultados de evaluacionesVer detalle7 aprueban · 1 reprueba · 1 en proceso"
+     ],
+     "acciones": [
+      "Plantilla activa35330 tiendasVer detalle",
+      "Ver más indicadores (4)"
+     ]
+    },
+    {
+     "texto": "Recordatorios",
+     "titulo": "Recordatorios",
+     "subtitulo": "Alertas de contratos y evaluaciones. Cada persona del flujo recibe por correo las que le corresponden.",
+     "pestanas": [],
+     "secciones": [
+      "Mis recordatorios (0)"
+     ],
+     "acciones": []
+    },
+    {
+     "texto": "Indicadores de gestión",
+     "titulo": "Indicadores de gestión de personal",
+     "subtitulo": "Cifras al 28/10/2026 para Balú y Planeta · 30 tiendas · 353 trabajadores activos. Los períodos de 12 meses son los últimos 365 días.",
+     "pestanas": [],
+     "secciones": [
+      "Período de medición",
+      "KPI por área y estrategiaVer detalle11 áreas · 39 KPI · 2 buenos · 1 regulares · 10 malos",
+      "Dotación y rotaciónOcultar",
+      "Ingresos y egresos, últimos 12 mesesVer detalleoct 26: 12 ingresos · 15 egresos",
+      "Motivos de egreso (12 meses)Ver detalleRenuncia voluntaria: 58",
+      "Rotación por tienda (12 meses)Ver detalleMayor: Planeta 10 94%",
+      "Tiendas con menor cobertura del HCVer detalleMenor: Planeta 11 42%",
+      "Personal evaluado y su estatusVer detalle2 de 95 evaluados · 93 pendientes"
+     ],
+     "acciones": [
+      "Dotación y rotaciónOcultar",
+      "Personal activo353516 de HC aprobadoVer detalle",
+      "Rotación 12 meses33,5%100 egresosVer detalle"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Descargas en Excel"
+     ],
+     "secciones": [
+      "Sucesión y formación (Balú)",
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Exportar a Excel",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Descargas en Excel",
+      "Ver detalle (30)"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (26)"
+     ],
+     "acciones": [
+      "Ingreso11",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato1",
+      "Traslados y promociones6",
+      "Evaluaciones de desempeño8",
+      "Apoyos y pernoctas0",
+      "Incentivos de ventas0",
+      "Exportar a Excel",
+      "Ver",
+      "Ver detalle (26)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Requisiciones de personal",
+     "titulo": "Requisiciones de personal",
+     "subtitulo": "Se generan solas cuando sale la carta de egreso o se da de baja a un trabajador. El Gerente o el Subgerente de la tienda la firma de manera indistinta y RRHH repone la vacante.",
+     "pestanas": [
+      "En curso",
+      "Cerradas"
+     ],
+     "secciones": [
+      "Requisiciones en curso (0)"
+     ],
+     "acciones": [
+      "En curso",
+      "Cerradas"
+     ]
+    },
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos",
+      "Ver documento"
+     ]
+    },
+    {
+     "texto": "Onboarding",
+     "titulo": "Onboarding",
+     "subtitulo": "Plan de onboarding de 28 días al dar de alta a un trabajador (expectativas a los 28 y 120 días) y Programa de Formación al cargo, de X días fijados por RRHH, en cada promoción. Lo firma el supervisor directo.",
+     "pestanas": [
+      "En curso",
+      "Completados"
+     ],
+     "secciones": [],
+     "acciones": [
+      "En curso11",
+      "Completados",
+      "Ver detalle (11)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Directorio",
+     "titulo": "Directorio",
+     "subtitulo": "383 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (383)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Balú y Planeta · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Por tienda",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semanaVer detalle15 ingresos · 15 egresos en el período",
+      "Ingresos por marca y cargoVer detalleAsesor de Ventas: 11 · Subgerente: 3"
+     ],
+     "acciones": [
+      "Exportar ingresos (CSV)",
+      "Comparativo",
+      "Solo ingresos15",
+      "Solo egresos15",
+      "Por tienda",
+      "Detalle de ingresos15",
+      "Detalle de egresos15",
+      "Análisis de egresos",
+      "Ver detalle (32)"
+     ]
+    },
+    {
+     "texto": "Solicitudes",
+     "titulo": "Solicitudes",
+     "subtitulo": "Traslados, promociones y desincorporaciones con aprobación por etapas.",
+     "pestanas": [
+      "Pendientes de mi aprobación",
+      "Todas"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Pendientes de mi aprobación",
+      "Todas5"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Contratación y relaciones laborales",
+   "modulos": [
+    {
+     "texto": "Prueba y contratos",
+     "titulo": "Período de prueba y contratos",
+     "subtitulo": "Período de prueba: días 15, 22 y 28 · prosecución: días 70, 80 y 90 · pase a fijo: días 150, 170 y 180 (verde, amarilla y roja)",
+     "pestanas": [
+      "Por atender",
+      "En aprobación",
+      "Historial"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por atender24",
+      "En aprobación1",
+      "Historial",
+      "Ver detalle (24)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Formación",
+   "modulos": [
+    {
+     "texto": "Formación",
+     "titulo": "Formación",
+     "subtitulo": "Catálogo de formaciones, participación por trabajador y talleres. Alimenta el plan de sucesión y el expediente.",
+     "pestanas": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ],
+     "secciones": [
+      "Participación en formaciones"
+     ],
+     "acciones": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desarrollo",
+   "modulos": [
+    {
+     "texto": "Plan de sucesión",
+     "titulo": "Plan de sucesión y carrera",
+     "subtitulo": "Cobertura de cargos clave y rutas de crecimiento del personal de tienda.",
+     "pestanas": [
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo"
+     ],
+     "secciones": [
+      "Mapa por tienda (consolidado Balú)",
+      "Escala de cargos de tienda"
+     ],
+     "acciones": [
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Ver detalle (19)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Ubicación, metraje y números de registro patronal de cada tienda. RRHH mantiene esta información.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (32)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Operación de tiendas",
+   "modulos": [
+    {
+     "texto": "Apoyos de personal",
+     "titulo": "Apoyos de personal",
+     "subtitulo": "Personal que presta labores de apoyo en otro cargo o en otra tienda. Se registra por quincena y requiere 2 de 3 aprobaciones (Marca, Operaciones, RRHH).",
+     "pestanas": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores",
+      "Reporte PDF",
+      "Exportar CSV"
+     ]
+    },
+    {
+     "texto": "Pernoctas",
+     "titulo": "Pernoctas",
+     "subtitulo": "El Gerente de Tienda informa cada pernocta, su motivo, quiénes participaron y si se cumplió el objetivo. Requiere la aprobación de Gerencia de Marca, Operaciones y RRHH.",
+     "pestanas": [
+      "Pernoctas",
+      "Indicadores"
+     ],
+     "secciones": [
+      "Pernoctas por motivo",
+      "Personas que realizaron pernoctas"
+     ],
+     "acciones": [
+      "Pernoctas",
+      "Indicadores"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de la marca elegida. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Analista de RRHH · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Contratación y relaciones laborales",
+      "Formación",
+      "Desarrollo",
+      "Información de tiendas",
+      "Operación de tiendas",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": [
+      "Descargar PDF"
+     ]
+    }
+   ]
+  }
+ ],
+ "general": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Tablero",
+     "titulo": "Tablero de Gerencia General",
+     "subtitulo": "Resumen al 28/10/2026. Pulse cada fila para ver el detalle.",
+     "pestanas": [],
+     "secciones": [
+      "Resumen",
+      "Requiere su acciónVer detalleSin pendientes. Todo al día.",
+      "Plantilla frente a HCVer detalle68% de cobertura · 167 vacantes · 18 tiendas en rojo",
+      "Vencimientos de contratoVer detalle1 en rojo · 12 en amarillo · 11 en verde",
+      "Ingresos del mesVer detalle15 ingresos · 15 egresos · 2 con documentos por habilitar",
+      "Pernoctas (30 días)Ver detalleSin pernoctas",
+      "Resultados de evaluacionesVer detalle7 aprueban · 1 reprueba · 1 en proceso"
+     ],
+     "acciones": [
+      "Plantilla activa35330 tiendasVer detalle",
+      "Pernoctas (30 días)Ver detalleSin pernoctas"
+     ]
+    },
+    {
+     "texto": "Recordatorios",
+     "titulo": "Recordatorios",
+     "subtitulo": "Alertas de contratos y evaluaciones. Cada persona del flujo recibe por correo las que le corresponden.",
+     "pestanas": [],
+     "secciones": [
+      "Mis recordatorios (0)"
+     ],
+     "acciones": []
+    },
+    {
+     "texto": "Indicadores de gestión",
+     "titulo": "Indicadores de gestión de personal",
+     "subtitulo": "Cifras al 28/10/2026 para Balú y Planeta · 30 tiendas · 353 trabajadores activos. Los períodos de 12 meses son los últimos 365 días.",
+     "pestanas": [],
+     "secciones": [
+      "Período de medición",
+      "KPI por área y estrategiaVer detalle11 áreas · 39 KPI · 2 buenos · 1 regulares · 10 malos",
+      "Dotación y rotaciónOcultar",
+      "Ingresos y egresos, últimos 12 mesesVer detalleoct 26: 12 ingresos · 15 egresos",
+      "Motivos de egreso (12 meses)Ver detalleRenuncia voluntaria: 58",
+      "Rotación por tienda (12 meses)Ver detalleMayor: Planeta 10 94%",
+      "Tiendas con menor cobertura del HCVer detalleMenor: Planeta 11 42%",
+      "Personal evaluado y su estatusVer detalle2 de 95 evaluados · 93 pendientes"
+     ],
+     "acciones": [
+      "Dotación y rotaciónOcultar",
+      "Personal activo353516 de HC aprobadoVer detalle",
+      "Rotación 12 meses33,5%100 egresosVer detalle"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Descargas en Excel"
+     ],
+     "secciones": [
+      "Cumplimiento legal: 5% de la plantilla",
+      "Detalle por tienda",
+      "Sucesión y formación (Balú)",
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Exportar a Excel",
+      "Exportar todo a Excel",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Descargas en Excel",
+      "Ver detalle (32)",
+      "Ver detalle (30)"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (26)",
+      "Documentos autenticados emitidos (0)"
+     ],
+     "acciones": [
+      "Ingreso11",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato1",
+      "Traslados y promociones6",
+      "Evaluaciones de desempeño8",
+      "Apoyos y pernoctas0",
+      "Incentivos de ventas0",
+      "Exportar a Excel",
+      "Ver",
+      "Ver detalle (26)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Requisiciones de personal",
+     "titulo": "Requisiciones de personal",
+     "subtitulo": "Se generan solas cuando sale la carta de egreso o se da de baja a un trabajador. El Gerente o el Subgerente de la tienda la firma de manera indistinta y RRHH repone la vacante.",
+     "pestanas": [
+      "En curso",
+      "Cerradas"
+     ],
+     "secciones": [
+      "Requisiciones en curso (0)"
+     ],
+     "acciones": [
+      "En curso",
+      "Cerradas"
+     ]
+    },
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos",
+      "Ver documento"
+     ]
+    },
+    {
+     "texto": "Onboarding",
+     "titulo": "Onboarding",
+     "subtitulo": "Plan de onboarding de 28 días al dar de alta a un trabajador (expectativas a los 28 y 120 días) y Programa de Formación al cargo, de X días fijados por RRHH, en cada promoción. Lo firma el supervisor directo.",
+     "pestanas": [
+      "En curso",
+      "Completados"
+     ],
+     "secciones": [],
+     "acciones": [
+      "En curso11",
+      "Completados",
+      "Ver detalle (11)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Directorio",
+     "titulo": "Directorio",
+     "subtitulo": "383 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (383)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Balú y Planeta · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Por tienda",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semanaVer detalle15 ingresos · 15 egresos en el período",
+      "Ingresos por marca y cargoVer detalleAsesor de Ventas: 11 · Subgerente: 3"
+     ],
+     "acciones": [
+      "Exportar ingresos (CSV)",
+      "Comparativo",
+      "Solo ingresos15",
+      "Solo egresos15",
+      "Por tienda",
+      "Detalle de ingresos15",
+      "Detalle de egresos15",
+      "Análisis de egresos",
+      "Ver detalle (32)"
+     ]
+    },
+    {
+     "texto": "Solicitudes",
+     "titulo": "Solicitudes",
+     "subtitulo": "Traslados, promociones y desincorporaciones con aprobación por etapas.",
+     "pestanas": [
+      "Pendientes de mi aprobación",
+      "Todas"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Pendientes de mi aprobación",
+      "Todas5"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Contratación y relaciones laborales",
+   "modulos": [
+    {
+     "texto": "Prueba y contratos",
+     "titulo": "Período de prueba y contratos",
+     "subtitulo": "Período de prueba: días 15, 22 y 28 · prosecución: días 70, 80 y 90 · pase a fijo: días 150, 170 y 180 (verde, amarilla y roja)",
+     "pestanas": [],
+     "secciones": [
+      "Resumen por marca"
+     ],
+     "acciones": [
+      "Ver detalle"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desempeño",
+   "modulos": [
+    {
+     "texto": "Evaluaciones",
+     "titulo": "Evaluaciones",
+     "subtitulo": "Nine-Box con calibración para los cargos definidos por RRHH (gerentes, personal de tienda y administrativo) · pruebas del portal para traslados y promociones.",
+     "pestanas": [
+      "Traslados y promociones",
+      "Calibración Nine-Box",
+      "Feedback pendiente",
+      "Pendientes",
+      "Al día",
+      "Aún no elegibles",
+      "Historial",
+      "Trayectoria del trabajador"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Traslados y promociones",
+      "Calibración Nine-Box",
+      "Feedback pendiente4",
+      "Pendientes102",
+      "Al día2",
+      "Aún no elegibles54",
+      "Historial4",
+      "Trayectoria del trabajador",
+      "Ver detalle (102)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Formación",
+   "modulos": [
+    {
+     "texto": "Formación",
+     "titulo": "Formación",
+     "subtitulo": "Catálogo de formaciones, participación por trabajador y talleres. Alimenta el plan de sucesión y el expediente.",
+     "pestanas": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ],
+     "secciones": [
+      "Participación en formaciones"
+     ],
+     "acciones": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desarrollo",
+   "modulos": [
+    {
+     "texto": "Plan de sucesión",
+     "titulo": "Plan de sucesión y carrera",
+     "subtitulo": "Cobertura de cargos clave y rutas de crecimiento del personal de tienda y administrativo.",
+     "pestanas": [
+      "Tienda",
+      "Administrativa",
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo"
+     ],
+     "secciones": [
+      "Mapa por tienda (consolidado Balú)",
+      "Escala de cargos de tienda"
+     ],
+     "acciones": [
+      "Tienda",
+      "Administrativa",
+      "Ver con datos reales (ejemplo)",
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Ver detalle (19)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Ubicación, metraje y números de registro patronal de cada tienda. RRHH mantiene esta información.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (32)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Operación de tiendas",
+   "modulos": [
+    {
+     "texto": "Apoyos de personal",
+     "titulo": "Apoyos de personal",
+     "subtitulo": "Personal que presta labores de apoyo en otro cargo o en otra tienda. Se registra por quincena y requiere 2 de 3 aprobaciones (Marca, Operaciones, RRHH).",
+     "pestanas": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores",
+      "Reporte PDF",
+      "Exportar CSV"
+     ]
+    },
+    {
+     "texto": "Pernoctas",
+     "titulo": "Pernoctas",
+     "subtitulo": "El Gerente de Tienda informa cada pernocta, su motivo, quiénes participaron y si se cumplió el objetivo. Requiere la aprobación de Gerencia de Marca, Operaciones y RRHH.",
+     "pestanas": [
+      "Pernoctas",
+      "Indicadores"
+     ],
+     "secciones": [
+      "Pernoctas por motivo",
+      "Personas que realizaron pernoctas"
+     ],
+     "acciones": [
+      "Pernoctas",
+      "Indicadores"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Compensación y beneficios",
+   "modulos": [
+    {
+     "texto": "Incentivos de ventas",
+     "titulo": "Incentivos de ventas",
+     "subtitulo": "Concursos, campañas y otros incentivos con tiendas en 1.er, 2.º y 3.er lugar. RRHH registra, Gerencia General aprueba y se emite el documento para Nómina. Participa la plantilla activa con más de 14 días de antigüedad.",
+     "pestanas": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ]
+    },
+    {
+     "texto": "Modelos de compensación",
+     "titulo": "Modelos de compensación",
+     "subtitulo": "Estructura de compensación vigente en cada tienda. La ven Gerencia de Marca, Operaciones, Gerencia General, RRHH, Administrador y la Dirección Ejecutiva; solo RRHH y Gerencia General la modifican.",
+     "pestanas": [
+      "Por tienda",
+      "Modelos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Exportar a Excel",
+      "Importar esquema (Excel)",
+      "Nuevo modelo",
+      "Por tienda32",
+      "Modelos",
+      "Ver detalle (32)"
+     ]
+    },
+    {
+     "texto": "Remuneración del personal",
+     "titulo": "Remuneración del personal",
+     "subtitulo": "KPI, pesos y remuneración de toda la organización, con historial.",
+     "pestanas": [],
+     "secciones": [
+      "Cómo debe estar el archivo de Excel"
+     ],
+     "acciones": [
+      "Plantilla Excel",
+      "Importar Excel",
+      "Exportar Excel",
+      "Modelos y salarios (Excel)",
+      "Descargar plantilla con ejemplo",
+      "Ver detalle (353)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Estructura administrativa",
+     "titulo": "Estructura administrativa",
+     "subtitulo": "Organigrama, cargos, compensación y evaluación del personal administrativo de la División de Marcas Propias. Visible solo para RRHH, Administrador y Gerencia General.",
+     "pestanas": [
+      "Organigrama",
+      "Personal y cargos",
+      "Compensación",
+      "Distribución del gasto",
+      "Pruebas y Nine-Box por cargo",
+      "Datos"
+     ],
+     "secciones": [
+      "Datos de la estructura"
+     ],
+     "acciones": [
+      "Organigrama",
+      "Personal y cargos",
+      "Compensación",
+      "Distribución del gasto",
+      "Pruebas y Nine-Box por cargo",
+      "Datos",
+      "Cargar organigrama de Visio (.vsdx)",
+      "Cargar archivo JSON",
+      "Cargar contenido pegado"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración del sistema",
+   "modulos": [
+    {
+     "texto": "Trazabilidad",
+     "titulo": "Trazabilidad",
+     "subtitulo": "Quién aprobó, rechazó o ejecutó cada paso de cada flujo, y registro de todo lo que se hace en el sistema. El nombre y el rol de cada responsable quedan guardados al momento de actuar.",
+     "pestanas": [
+      "Aprobaciones por flujo",
+      "Bitácora general"
+     ],
+     "secciones": [
+      "Filtros",
+      "Quién aprobó cada flujo (17 movimientos)"
+     ],
+     "acciones": [
+      "Aprobaciones por flujo",
+      "Bitácora general",
+      "Exportar a CSV",
+      "Ver detalle (17)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de la marca elegida. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Gerente General · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "Descargar la aplicación en el teléfono",
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Contratación y relaciones laborales",
+      "Desempeño",
+      "Formación",
+      "Desarrollo",
+      "Información de tiendas",
+      "Operación de tiendas",
+      "Compensación y beneficios",
+      "Administración del sistema",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": [
+      "Descargar PDF"
+     ]
+    }
+   ]
+  }
+ ],
+ "junta": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Tablero",
+     "titulo": "Tablero",
+     "subtitulo": "Resumen al 28/10/2026. Pulse cada fila para ver el detalle.",
+     "pestanas": [],
+     "secciones": [
+      "Resumen",
+      "Plantilla frente a HCVer detalle68% de cobertura · 167 vacantes · 18 tiendas en rojo",
+      "Vencimientos de contratoVer detalle1 en rojo · 12 en amarillo · 11 en verde",
+      "Ingresos del mesVer detalle15 ingresos · 15 egresos · 2 con documentos por habilitar",
+      "Pernoctas (30 días)Ver detalleSin pernoctas",
+      "Resultados de evaluacionesVer detalle7 aprueban · 1 reprueba · 1 en proceso"
+     ],
+     "acciones": [
+      "Plantilla activa35330 tiendasVer detalle",
+      "Pernoctas (30 días)Ver detalleSin pernoctas"
+     ]
+    },
+    {
+     "texto": "Recordatorios",
+     "titulo": "Recordatorios",
+     "subtitulo": "Alertas de contratos y evaluaciones. Cada persona del flujo recibe por correo las que le corresponden.",
+     "pestanas": [],
+     "secciones": [
+      "Mis recordatorios (0)"
+     ],
+     "acciones": []
+    },
+    {
+     "texto": "Indicadores de gestión",
+     "titulo": "Indicadores de gestión de personal",
+     "subtitulo": "Cifras al 28/10/2026 para Balú y Planeta · 30 tiendas · 353 trabajadores activos. Los períodos de 12 meses son los últimos 365 días.",
+     "pestanas": [],
+     "secciones": [
+      "Período de medición",
+      "KPI por área y estrategiaVer detalle11 áreas · 39 KPI · 2 buenos · 1 regulares · 10 malos",
+      "Dotación y rotaciónOcultar",
+      "Ingresos y egresos, últimos 12 mesesVer detalleoct 26: 12 ingresos · 15 egresos",
+      "Motivos de egreso (12 meses)Ver detalleRenuncia voluntaria: 58",
+      "Rotación por tienda (12 meses)Ver detalleMayor: Planeta 10 94%",
+      "Tiendas con menor cobertura del HCVer detalleMenor: Planeta 11 42%",
+      "Personal evaluado y su estatusVer detalle2 de 95 evaluados · 93 pendientes"
+     ],
+     "acciones": [
+      "Dotación y rotaciónOcultar",
+      "Personal activo353516 de HC aprobadoVer detalle",
+      "Rotación 12 meses33,5%100 egresosVer detalle"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes"
+     ],
+     "secciones": [
+      "Sucesión y formación (Balú)",
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Exportar a Excel",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Ver detalle (30)"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (26)",
+      "Documentos autenticados emitidos (0)"
+     ],
+     "acciones": [
+      "Ingreso11",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato1",
+      "Traslados y promociones6",
+      "Evaluaciones de desempeño8",
+      "Apoyos y pernoctas0",
+      "Incentivos de ventas0",
+      "Exportar a Excel",
+      "Ver",
+      "Ver detalle (26)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos",
+      "Ver documento"
+     ]
+    },
+    {
+     "texto": "Onboarding",
+     "titulo": "Onboarding",
+     "subtitulo": "Plan de onboarding de 28 días al dar de alta a un trabajador (expectativas a los 28 y 120 días) y Programa de Formación al cargo, de X días fijados por RRHH, en cada promoción. Lo firma el supervisor directo.",
+     "pestanas": [
+      "En curso",
+      "Completados"
+     ],
+     "secciones": [],
+     "acciones": [
+      "En curso11",
+      "Completados",
+      "Ver detalle (11)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Directorio",
+     "titulo": "Directorio",
+     "subtitulo": "383 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (383)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Balú y Planeta · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Por tienda",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semanaVer detalle15 ingresos · 15 egresos en el período",
+      "Ingresos por marca y cargoVer detalleAsesor de Ventas: 11 · Subgerente: 3"
+     ],
+     "acciones": [
+      "Exportar ingresos (CSV)",
+      "Comparativo",
+      "Solo ingresos15",
+      "Solo egresos15",
+      "Por tienda",
+      "Detalle de ingresos15",
+      "Detalle de egresos15",
+      "Análisis de egresos",
+      "Ver detalle (32)"
+     ]
+    },
+    {
+     "texto": "Solicitudes",
+     "titulo": "Solicitudes",
+     "subtitulo": "Traslados, promociones y desincorporaciones con aprobación por etapas.",
+     "pestanas": [
+      "Pendientes de mi aprobación",
+      "Todas"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Pendientes de mi aprobación",
+      "Todas5"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Contratación y relaciones laborales",
+   "modulos": [
+    {
+     "texto": "Prueba y contratos",
+     "titulo": "Período de prueba y contratos",
+     "subtitulo": "Período de prueba: días 15, 22 y 28 · prosecución: días 70, 80 y 90 · pase a fijo: días 150, 170 y 180 (verde, amarilla y roja)",
+     "pestanas": [
+      "Por atender",
+      "En aprobación",
+      "Historial"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por atender24",
+      "En aprobación1",
+      "Historial",
+      "Ver detalle (24)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Formación",
+   "modulos": [
+    {
+     "texto": "Formación",
+     "titulo": "Formación",
+     "subtitulo": "Catálogo de formaciones, participación por trabajador y talleres. Alimenta el plan de sucesión y el expediente.",
+     "pestanas": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ],
+     "secciones": [
+      "Participación en formaciones"
+     ],
+     "acciones": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desarrollo",
+   "modulos": [
+    {
+     "texto": "Plan de sucesión",
+     "titulo": "Plan de sucesión y carrera",
+     "subtitulo": "Cobertura de cargos clave y rutas de crecimiento del personal de tienda y administrativo.",
+     "pestanas": [
+      "Tienda",
+      "Administrativa",
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo"
+     ],
+     "secciones": [
+      "Mapa por tienda (consolidado Balú)",
+      "Escala de cargos de tienda"
+     ],
+     "acciones": [
+      "Tienda",
+      "Administrativa",
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Ver detalle (19)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Ubicación, metraje y números de registro patronal de cada tienda. RRHH mantiene esta información.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (32)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Operación de tiendas",
+   "modulos": [
+    {
+     "texto": "Apoyos de personal",
+     "titulo": "Apoyos de personal",
+     "subtitulo": "Personal que presta labores de apoyo en otro cargo o en otra tienda. Se registra por quincena y requiere 2 de 3 aprobaciones (Marca, Operaciones, RRHH).",
+     "pestanas": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores",
+      "Reporte PDF",
+      "Exportar CSV"
+     ]
+    },
+    {
+     "texto": "Pernoctas",
+     "titulo": "Pernoctas",
+     "subtitulo": "El Gerente de Tienda informa cada pernocta, su motivo, quiénes participaron y si se cumplió el objetivo. Requiere la aprobación de Gerencia de Marca, Operaciones y RRHH.",
+     "pestanas": [
+      "Pernoctas",
+      "Indicadores"
+     ],
+     "secciones": [
+      "Pernoctas por motivo",
+      "Personas que realizaron pernoctas"
+     ],
+     "acciones": [
+      "Pernoctas",
+      "Indicadores"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Compensación y beneficios",
+   "modulos": [
+    {
+     "texto": "Incentivos de ventas",
+     "titulo": "Incentivos de ventas",
+     "subtitulo": "Concursos, campañas y otros incentivos con tiendas en 1.er, 2.º y 3.er lugar. RRHH registra, Gerencia General aprueba y se emite el documento para Nómina. Participa la plantilla activa con más de 14 días de antigüedad.",
+     "pestanas": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ]
+    },
+    {
+     "texto": "Modelos de compensación",
+     "titulo": "Modelos de compensación",
+     "subtitulo": "Estructura de compensación vigente en cada tienda. La ven Gerencia de Marca, Operaciones, Gerencia General, RRHH, Administrador y la Dirección Ejecutiva; solo RRHH y Gerencia General la modifican.",
+     "pestanas": [
+      "Por tienda",
+      "Modelos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Exportar a Excel",
+      "Por tienda32",
+      "Modelos",
+      "Ver detalle (32)"
+     ]
+    },
+    {
+     "texto": "Remuneración del personal",
+     "titulo": "Remuneración del personal",
+     "subtitulo": "KPI, pesos y remuneración de toda la organización, con historial.",
+     "pestanas": [],
+     "secciones": [
+      "Cómo debe estar el archivo de Excel"
+     ],
+     "acciones": [
+      "Plantilla Excel",
+      "Importar Excel",
+      "Exportar Excel",
+      "Modelos y salarios (Excel)",
+      "Descargar plantilla con ejemplo",
+      "Ver detalle (353)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Estructura administrativa",
+     "titulo": "Estructura administrativa",
+     "subtitulo": "Organigrama, cargos, compensación y evaluación del personal administrativo de la División de Marcas Propias. Visible solo para RRHH, Administrador y Gerencia General.",
+     "pestanas": [
+      "Organigrama",
+      "Personal y cargos",
+      "Compensación",
+      "Distribución del gasto",
+      "Pruebas y Nine-Box por cargo",
+      "Datos"
+     ],
+     "secciones": [
+      "Datos de la estructura"
+     ],
+     "acciones": [
+      "Organigrama",
+      "Personal y cargos",
+      "Compensación",
+      "Distribución del gasto",
+      "Pruebas y Nine-Box por cargo",
+      "Datos",
+      "Cargar organigrama de Visio (.vsdx)",
+      "Cargar archivo JSON",
+      "Cargar contenido pegado"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de la marca elegida. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Junta Directiva · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Contratación y relaciones laborales",
+      "Formación",
+      "Desarrollo",
+      "Información de tiendas",
+      "Operación de tiendas",
+      "Compensación y beneficios",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": [
+      "Descargar PDF"
+     ]
+    }
+   ]
+  }
+ ],
+ "marca": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Tablero",
+     "titulo": "Tablero de Gerencia de Marca Balú",
+     "subtitulo": "Resumen al 28/10/2026. Pulse cada fila para ver el detalle.",
+     "pestanas": [],
+     "secciones": [
+      "Resumen",
+      "Requiere su acciónVer detalle1 por aprobar · 1 vencido · 26 pendientes",
+      "Feedback pendiente (2)Ver detalle",
+      "Plantilla frente a HCVer detalle69% de cobertura · 101 vacantes · 10 tiendas en rojo",
+      "Vencimientos de contratoVer detalle1 en rojo · 10 en amarillo · 7 en verde",
+      "Ingresos del mesVer detalle10 ingresos · 8 egresos · 2 con documentos por habilitar",
+      "Pernoctas (30 días)Ver detalleSin pernoctas",
+      "Resultados de evaluacionesVer detalle7 aprueban · 1 reprueba · 1 en proceso"
+     ],
+     "acciones": [
+      "Plantilla activa22319 tiendasVer detalle",
+      "Feedback pendiente (2)Ver detalle",
+      "Pernoctas (30 días)Ver detalleSin pernoctas"
+     ]
+    },
+    {
+     "texto": "Recordatorios",
+     "titulo": "Recordatorios",
+     "subtitulo": "Alertas de contratos y evaluaciones. Cada persona del flujo recibe por correo las que le corresponden.",
+     "pestanas": [],
+     "secciones": [
+      "Mis recordatorios (27)"
+     ],
+     "acciones": [
+      "Atender",
+      "Ver detalle (27)"
+     ]
+    },
+    {
+     "texto": "Indicadores de gestión",
+     "titulo": "Indicadores de gestión de personal",
+     "subtitulo": "Cifras al 28/10/2026 para Balú · 19 tiendas · 223 trabajadores activos. Los períodos de 12 meses son los últimos 365 días.",
+     "pestanas": [],
+     "secciones": [
+      "Período de medición",
+      "KPI por área y estrategiaVer detalle11 áreas · 39 KPI · 2 buenos · 1 regulares · 10 malos",
+      "Dotación y rotaciónOcultar",
+      "Ingresos y egresos, últimos 12 mesesVer detalleoct 26: 8 ingresos · 8 egresos",
+      "Motivos de egreso (12 meses)Ver detalleRenuncia voluntaria: 36",
+      "Rotación por tienda (12 meses)Ver detalleMayor: Balú Tienda 14 82%",
+      "Tiendas con menor cobertura del HCVer detalleMenor: Balú Tienda 18 43%",
+      "Personal evaluado y su estatusVer detalle2 de 60 evaluados · 58 pendientes"
+     ],
+     "acciones": [
+      "Dotación y rotaciónOcultar",
+      "Personal activo223321 de HC aprobadoVer detalle",
+      "Rotación 12 meses34,9%65 egresosVer detalle"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes"
+     ],
+     "secciones": [
+      "Sucesión y formación (Balú)",
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Exportar a Excel",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Ver detalle (19)"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (22)"
+     ],
+     "acciones": [
+      "Ingreso7",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato1",
+      "Traslados y promociones6",
+      "Evaluaciones de desempeño8",
+      "Apoyos y pernoctas0",
+      "Incentivos de ventas0",
+      "Exportar a Excel",
+      "Ver",
+      "Ver detalle (22)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Requisiciones de personal",
+     "titulo": "Requisiciones de personal",
+     "subtitulo": "Se generan solas cuando sale la carta de egreso o se da de baja a un trabajador. El Gerente o el Subgerente de la tienda la firma de manera indistinta y RRHH repone la vacante.",
+     "pestanas": [
+      "En curso",
+      "Cerradas"
+     ],
+     "secciones": [
+      "Requisiciones en curso (0)"
+     ],
+     "acciones": [
+      "En curso",
+      "Cerradas"
+     ]
+    },
+    {
+     "texto": "Nuevo ingreso",
+     "titulo": "Registro de ingreso",
+     "subtitulo": "Busque primero en el listado precargado por RRHH. Al guardar se genera el kit legal de ingreso: contrato, acuerdo de responsabilidad, confidencialidad y convenio de alimentación, además del formato de ruta habitual de traslado.",
+     "pestanas": [
+      "Registrar ingreso",
+      "Listado precargado"
+     ],
+     "secciones": [
+      "1. Buscar por cédula",
+      "Precargados pendientes (4)"
+     ],
+     "acciones": [
+      "Registrar ingreso",
+      "Listado precargado4",
+      "Buscar",
+      "Ver detalle (4)"
+     ]
+    },
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos",
+      "Ver documento"
+     ]
+    },
+    {
+     "texto": "Onboarding",
+     "titulo": "Onboarding",
+     "subtitulo": "Plan de onboarding de 28 días al dar de alta a un trabajador (expectativas a los 28 y 120 días) y Programa de Formación al cargo, de X días fijados por RRHH, en cada promoción. Lo firma el supervisor directo.",
+     "pestanas": [
+      "En curso",
+      "Completados"
+     ],
+     "secciones": [],
+     "acciones": [
+      "En curso7",
+      "Completados",
+      "Ver detalle (7)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Directorio",
+     "titulo": "Directorio · Balú",
+     "subtitulo": "242 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Nuevo ingreso",
+      "Ver detalle (242)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Marca Balú · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Por tienda",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semanaVer detalle10 ingresos · 8 egresos en el período",
+      "Ingresos por cargoVer detalleAsesor de Ventas: 8 · Subgerente: 2"
+     ],
+     "acciones": [
+      "Exportar ingresos (CSV)",
+      "Comparativo",
+      "Solo ingresos10",
+      "Solo egresos8",
+      "Por tienda",
+      "Detalle de ingresos10",
+      "Detalle de egresos8",
+      "Análisis de egresos",
+      "Ver detalle (20)"
+     ]
+    },
+    {
+     "texto": "Reporte de egresos",
+     "titulo": "Reporte de egresos",
+     "subtitulo": "Reporte la salida de un trabajador, indique el motivo y cargue la carta de renuncia. El abandono de trabajo lo declara el Gerente o Subgerente.",
+     "pestanas": [],
+     "secciones": [
+      "Reportar el egreso de un trabajador",
+      "Egresos reportados"
+     ],
+     "acciones": [
+      "Reportar egreso",
+      "Ver"
+     ]
+    },
+    {
+     "texto": "Solicitudes",
+     "titulo": "Solicitudes",
+     "subtitulo": "Traslados, promociones y desincorporaciones con aprobación por etapas.",
+     "pestanas": [
+      "Pendientes de mi aprobación",
+      "Creadas por mí",
+      "Todas"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Nueva solicitud",
+      "Pendientes de mi aprobación1",
+      "Creadas por mí",
+      "Todas5"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Contratación y relaciones laborales",
+   "modulos": [
+    {
+     "texto": "Prueba y contratos",
+     "titulo": "Período de prueba y contratos",
+     "subtitulo": "Período de prueba: días 15, 22 y 28 · prosecución: días 70, 80 y 90 · pase a fijo: días 150, 170 y 180 (verde, amarilla y roja)",
+     "pestanas": [
+      "Por atender",
+      "En aprobación",
+      "Historial"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por atender18",
+      "En aprobación1",
+      "Historial",
+      "Evaluar",
+      "Ver detalle (18)"
+     ]
+    },
+    {
+     "texto": "Emitir amonestación",
+     "titulo": "Emitir amonestación",
+     "subtitulo": "Elija el literal del artículo 79 de la LOTTT que describe la falta y escriba los hechos: el sistema redacta el documento.",
+     "pestanas": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas"
+     ],
+     "secciones": [
+      "Nueva amonestación"
+     ],
+     "acciones": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas",
+      "Vista previa",
+      "Registrar y generar documento"
+     ]
+    },
+    {
+     "texto": "Carga de amonestaciones",
+     "titulo": "Carga de amonestaciones",
+     "subtitulo": "Cargue la imagen o el PDF de cada amonestación. Queda en el expediente del trabajador y puede descargarse.",
+     "pestanas": [],
+     "secciones": [
+      "Cargar una amonestación (imagen o PDF)",
+      "Amonestaciones cargadas"
+     ],
+     "acciones": [
+      "Guardar amonestación"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desempeño",
+   "modulos": [
+    {
+     "texto": "Evaluaciones",
+     "titulo": "Evaluaciones",
+     "subtitulo": "Nine-Box con calibración para los cargos definidos por RRHH (gerentes, personal de tienda y administrativo) · pruebas del portal para traslados y promociones.",
+     "pestanas": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Calibración Nine-Box",
+      "Feedback pendiente",
+      "Pendientes",
+      "Al día",
+      "Aún no elegibles",
+      "Historial",
+      "Trayectoria del trabajador"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Calibración Nine-Box",
+      "Feedback pendiente4",
+      "Pendientes26",
+      "Al día2",
+      "Aún no elegibles26",
+      "Historial4",
+      "Trayectoria del trabajador",
+      "Evaluar",
+      "Ver detalle (26)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Formación",
+   "modulos": [
+    {
+     "texto": "Formación",
+     "titulo": "Formación",
+     "subtitulo": "Catálogo de formaciones, participación por trabajador y talleres. Alimenta el plan de sucesión y el expediente.",
+     "pestanas": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ],
+     "secciones": [
+      "Participación en formaciones"
+     ],
+     "acciones": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desarrollo",
+   "modulos": [
+    {
+     "texto": "Plan de sucesión",
+     "titulo": "Plan de sucesión y carrera",
+     "subtitulo": "Cobertura de cargos clave y rutas de crecimiento del personal de tienda.",
+     "pestanas": [
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo"
+     ],
+     "secciones": [
+      "Mapa por tienda (consolidado Balú)",
+      "Escala de cargos de tienda"
+     ],
+     "acciones": [
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Ver detalle (19)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Ubicación, metraje y números de registro patronal de cada tienda. RRHH mantiene esta información.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (20)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Operación de tiendas",
+   "modulos": [
+    {
+     "texto": "Apoyos de personal",
+     "titulo": "Apoyos de personal",
+     "subtitulo": "Personal que presta labores de apoyo en otro cargo o en otra tienda. Se registra por quincena y requiere 2 de 3 aprobaciones (Marca, Operaciones, RRHH).",
+     "pestanas": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores",
+      "Reporte PDF",
+      "Exportar CSV"
+     ]
+    },
+    {
+     "texto": "Pernoctas",
+     "titulo": "Pernoctas",
+     "subtitulo": "El Gerente de Tienda informa cada pernocta, su motivo, quiénes participaron y si se cumplió el objetivo. Requiere la aprobación de Gerencia de Marca, Operaciones y RRHH.",
+     "pestanas": [
+      "Pernoctas",
+      "Indicadores"
+     ],
+     "secciones": [
+      "Pernoctas por motivo",
+      "Personas que realizaron pernoctas"
+     ],
+     "acciones": [
+      "Pernoctas",
+      "Indicadores"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Compensación y beneficios",
+   "modulos": [
+    {
+     "texto": "Incentivos de ventas",
+     "titulo": "Incentivos de ventas",
+     "subtitulo": "Concursos, campañas y otros incentivos con tiendas en 1.er, 2.º y 3.er lugar. RRHH registra, Gerencia General aprueba y se emite el documento para Nómina. Participa la plantilla activa con más de 14 días de antigüedad.",
+     "pestanas": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ]
+    },
+    {
+     "texto": "Modelos de compensación",
+     "titulo": "Modelos de compensación",
+     "subtitulo": "Estructura de compensación vigente en cada tienda. La ven Gerencia de Marca, Operaciones, Gerencia General, RRHH, Administrador y la Dirección Ejecutiva; solo RRHH y Gerencia General la modifican.",
+     "pestanas": [
+      "Por tienda",
+      "Modelos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Exportar a Excel",
+      "Por tienda20",
+      "Modelos",
+      "Ver detalle (20)"
+     ]
+    },
+    {
+     "texto": "Remuneración del personal",
+     "titulo": "Remuneración del personal",
+     "subtitulo": "KPI y remuneración de su personal a cargo.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar Excel",
+      "Modelos y salarios (Excel)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de su marca. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Gerente de Marca · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "Descargar la aplicación en el teléfono",
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Contratación y relaciones laborales",
+      "Desempeño",
+      "Formación",
+      "Desarrollo",
+      "Información de tiendas",
+      "Operación de tiendas",
+      "Compensación y beneficios",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": [
+      "Descargar PDF"
+     ]
+    }
+   ]
+  }
+ ],
+ "operaciones": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Tablero",
+     "titulo": "Tablero de Operaciones Balú",
+     "subtitulo": "Resumen al 28/10/2026. Pulse cada fila para ver el detalle.",
+     "pestanas": [],
+     "secciones": [
+      "Resumen",
+      "Requiere su acciónVer detalle26 pendientes",
+      "Plantilla frente a HCVer detalle69% de cobertura · 101 vacantes · 10 tiendas en rojo",
+      "Vencimientos de contratoVer detalle1 en rojo · 10 en amarillo · 7 en verde",
+      "Ingresos del mesVer detalle10 ingresos · 8 egresos · 2 con documentos por habilitar",
+      "Pernoctas (30 días)Ver detalleSin pernoctas",
+      "Resultados de evaluacionesVer detalle7 aprueban · 1 reprueba · 1 en proceso"
+     ],
+     "acciones": [
+      "Plantilla activa22319 tiendasVer detalle",
+      "Requiere su acciónVer detalle26 pendientes",
+      "Pernoctas (30 días)Ver detalleSin pernoctas"
+     ]
+    },
+    {
+     "texto": "Recordatorios",
+     "titulo": "Recordatorios",
+     "subtitulo": "Alertas de contratos y evaluaciones. Cada persona del flujo recibe por correo las que le corresponden.",
+     "pestanas": [],
+     "secciones": [
+      "Mis recordatorios (26)"
+     ],
+     "acciones": [
+      "Atender",
+      "Ver detalle (26)"
+     ]
+    },
+    {
+     "texto": "Indicadores de gestión",
+     "titulo": "Indicadores de gestión de personal",
+     "subtitulo": "Cifras al 28/10/2026 para Balú · 19 tiendas · 223 trabajadores activos. Los períodos de 12 meses son los últimos 365 días.",
+     "pestanas": [],
+     "secciones": [
+      "Período de medición",
+      "KPI por área y estrategiaVer detalle11 áreas · 39 KPI · 2 buenos · 1 regulares · 10 malos",
+      "Dotación y rotaciónOcultar",
+      "Ingresos y egresos, últimos 12 mesesVer detalleoct 26: 8 ingresos · 8 egresos",
+      "Motivos de egreso (12 meses)Ver detalleRenuncia voluntaria: 36",
+      "Rotación por tienda (12 meses)Ver detalleMayor: Balú Tienda 14 82%",
+      "Tiendas con menor cobertura del HCVer detalleMenor: Balú Tienda 18 43%",
+      "Personal evaluado y su estatusVer detalle2 de 60 evaluados · 58 pendientes"
+     ],
+     "acciones": [
+      "Dotación y rotaciónOcultar",
+      "Personal activo223321 de HC aprobadoVer detalle",
+      "Rotación 12 meses34,9%65 egresosVer detalle"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes"
+     ],
+     "secciones": [
+      "Sucesión y formación (Balú)",
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Exportar a Excel",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Ver detalle (19)"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (22)"
+     ],
+     "acciones": [
+      "Ingreso7",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato1",
+      "Traslados y promociones6",
+      "Evaluaciones de desempeño8",
+      "Apoyos y pernoctas0",
+      "Incentivos de ventas0",
+      "Exportar a Excel",
+      "Ver",
+      "Ver detalle (22)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Requisiciones de personal",
+     "titulo": "Requisiciones de personal",
+     "subtitulo": "Se generan solas cuando sale la carta de egreso o se da de baja a un trabajador. El Gerente o el Subgerente de la tienda la firma de manera indistinta y RRHH repone la vacante.",
+     "pestanas": [
+      "En curso",
+      "Cerradas"
+     ],
+     "secciones": [
+      "Requisiciones en curso (0)"
+     ],
+     "acciones": [
+      "En curso",
+      "Cerradas"
+     ]
+    },
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos",
+      "Ver documento"
+     ]
+    },
+    {
+     "texto": "Onboarding",
+     "titulo": "Onboarding",
+     "subtitulo": "Plan de onboarding de 28 días al dar de alta a un trabajador (expectativas a los 28 y 120 días) y Programa de Formación al cargo, de X días fijados por RRHH, en cada promoción. Lo firma el supervisor directo.",
+     "pestanas": [
+      "En curso",
+      "Completados"
+     ],
+     "secciones": [],
+     "acciones": [
+      "En curso7",
+      "Completados",
+      "Ver detalle (7)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Directorio",
+     "titulo": "Directorio · Balú",
+     "subtitulo": "242 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Ver detalle (242)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Marca Balú · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Por tienda",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semanaVer detalle10 ingresos · 8 egresos en el período",
+      "Ingresos por cargoVer detalleAsesor de Ventas: 8 · Subgerente: 2"
+     ],
+     "acciones": [
+      "Exportar ingresos (CSV)",
+      "Comparativo",
+      "Solo ingresos10",
+      "Solo egresos8",
+      "Por tienda",
+      "Detalle de ingresos10",
+      "Detalle de egresos8",
+      "Análisis de egresos",
+      "Ver detalle (20)"
+     ]
+    },
+    {
+     "texto": "Solicitudes",
+     "titulo": "Solicitudes",
+     "subtitulo": "Traslados, promociones y desincorporaciones con aprobación por etapas.",
+     "pestanas": [
+      "Pendientes de mi aprobación",
+      "Todas"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Pendientes de mi aprobación",
+      "Todas5"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Contratación y relaciones laborales",
+   "modulos": [
+    {
+     "texto": "Prueba y contratos",
+     "titulo": "Período de prueba y contratos",
+     "subtitulo": "Período de prueba: días 15, 22 y 28 · prosecución: días 70, 80 y 90 · pase a fijo: días 150, 170 y 180 (verde, amarilla y roja)",
+     "pestanas": [
+      "Por atender",
+      "En aprobación",
+      "Historial"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por atender18",
+      "En aprobación1",
+      "Historial",
+      "Ver detalle (18)"
+     ]
+    },
+    {
+     "texto": "Emitir amonestación",
+     "titulo": "Emitir amonestación",
+     "subtitulo": "Elija el literal del artículo 79 de la LOTTT que describe la falta y escriba los hechos: el sistema redacta el documento.",
+     "pestanas": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas"
+     ],
+     "secciones": [
+      "Nueva amonestación"
+     ],
+     "acciones": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas",
+      "Vista previa",
+      "Registrar y generar documento"
+     ]
+    },
+    {
+     "texto": "Carga de amonestaciones",
+     "titulo": "Carga de amonestaciones",
+     "subtitulo": "Cargue la imagen o el PDF de cada amonestación. Queda en el expediente del trabajador y puede descargarse.",
+     "pestanas": [],
+     "secciones": [
+      "Cargar una amonestación (imagen o PDF)",
+      "Amonestaciones cargadas"
+     ],
+     "acciones": [
+      "Guardar amonestación"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desempeño",
+   "modulos": [
+    {
+     "texto": "Evaluaciones",
+     "titulo": "Evaluaciones",
+     "subtitulo": "Nine-Box con calibración para los cargos definidos por RRHH (gerentes, personal de tienda y administrativo) · pruebas del portal para traslados y promociones.",
+     "pestanas": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Calibración Nine-Box",
+      "Feedback pendiente",
+      "Pendientes",
+      "Al día",
+      "Aún no elegibles",
+      "Historial",
+      "Trayectoria del trabajador"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Calibración Nine-Box",
+      "Feedback pendiente4",
+      "Pendientes26",
+      "Al día2",
+      "Aún no elegibles26",
+      "Historial4",
+      "Trayectoria del trabajador",
+      "Evaluar",
+      "Ver detalle (26)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Formación",
+   "modulos": [
+    {
+     "texto": "Formación",
+     "titulo": "Formación",
+     "subtitulo": "Catálogo de formaciones, participación por trabajador y talleres. Alimenta el plan de sucesión y el expediente.",
+     "pestanas": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ],
+     "secciones": [
+      "Participación en formaciones"
+     ],
+     "acciones": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desarrollo",
+   "modulos": [
+    {
+     "texto": "Plan de sucesión",
+     "titulo": "Plan de sucesión y carrera",
+     "subtitulo": "Cobertura de cargos clave y rutas de crecimiento del personal de tienda.",
+     "pestanas": [
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo"
+     ],
+     "secciones": [
+      "Mapa por tienda (consolidado Balú)",
+      "Escala de cargos de tienda"
+     ],
+     "acciones": [
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Ver detalle (19)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Ubicación, metraje y números de registro patronal de cada tienda. RRHH mantiene esta información.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (20)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Operación de tiendas",
+   "modulos": [
+    {
+     "texto": "Apoyos de personal",
+     "titulo": "Apoyos de personal",
+     "subtitulo": "Personal que presta labores de apoyo en otro cargo o en otra tienda. Se registra por quincena y requiere 2 de 3 aprobaciones (Marca, Operaciones, RRHH).",
+     "pestanas": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores",
+      "Reporte PDF",
+      "Exportar CSV"
+     ]
+    },
+    {
+     "texto": "Pernoctas",
+     "titulo": "Pernoctas",
+     "subtitulo": "El Gerente de Tienda informa cada pernocta, su motivo, quiénes participaron y si se cumplió el objetivo. Requiere la aprobación de Gerencia de Marca, Operaciones y RRHH.",
+     "pestanas": [
+      "Pernoctas",
+      "Indicadores"
+     ],
+     "secciones": [
+      "Pernoctas por motivo",
+      "Personas que realizaron pernoctas"
+     ],
+     "acciones": [
+      "Pernoctas",
+      "Indicadores"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Compensación y beneficios",
+   "modulos": [
+    {
+     "texto": "Incentivos de ventas",
+     "titulo": "Incentivos de ventas",
+     "subtitulo": "Concursos, campañas y otros incentivos con tiendas en 1.er, 2.º y 3.er lugar. RRHH registra, Gerencia General aprueba y se emite el documento para Nómina. Participa la plantilla activa con más de 14 días de antigüedad.",
+     "pestanas": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ]
+    },
+    {
+     "texto": "Modelos de compensación",
+     "titulo": "Modelos de compensación",
+     "subtitulo": "Estructura de compensación vigente en cada tienda. La ven Gerencia de Marca, Operaciones, Gerencia General, RRHH, Administrador y la Dirección Ejecutiva; solo RRHH y Gerencia General la modifican.",
+     "pestanas": [
+      "Por tienda",
+      "Modelos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Exportar a Excel",
+      "Por tienda20",
+      "Modelos",
+      "Ver detalle (20)"
+     ]
+    },
+    {
+     "texto": "Remuneración del personal",
+     "titulo": "Remuneración del personal",
+     "subtitulo": "KPI y remuneración de su personal a cargo.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar Excel",
+      "Modelos y salarios (Excel)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de su marca. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Gerente de Operaciones · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "Descargar la aplicación en el teléfono",
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Contratación y relaciones laborales",
+      "Desempeño",
+      "Formación",
+      "Desarrollo",
+      "Información de tiendas",
+      "Operación de tiendas",
+      "Compensación y beneficios",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": [
+      "Descargar PDF"
+     ]
+    }
+   ]
+  }
+ ],
+ "tienda": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Tablero",
+     "titulo": "Tablero",
+     "subtitulo": "Tienda Balú Propatria · datos al 28/10/2026",
+     "pestanas": [],
+     "secciones": [
+      "Onboarding en curso (1)",
+      "Feedback pendiente (1)",
+      "Vencimientos de contrato por atender (6)",
+      "Plantilla frente a HC",
+      "Ingresos del año por cargo",
+      "Egresos del año por cargo",
+      "Tiendas con menor cobertura"
+     ],
+     "acciones": [
+      "Ver planes",
+      "Dar feedback",
+      "Ver todos",
+      "Evaluar",
+      "Ver detalle (6)",
+      "Plantilla activa161 tiendaVer detalle",
+      "Ver organigrama",
+      "Ver por tienda"
+     ]
+    },
+    {
+     "texto": "Recordatorios",
+     "titulo": "Recordatorios",
+     "subtitulo": "Alertas de contratos y evaluaciones. Cada persona del flujo recibe por correo las que le corresponden.",
+     "pestanas": [],
+     "secciones": [
+      "Mis recordatorios (8)"
+     ],
+     "acciones": [
+      "Atender",
+      "Ver detalle (8)"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Cumpleaños del mes"
+     ],
+     "secciones": [
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Exportar a Excel",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Cumpleaños del mes"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (5)"
+     ],
+     "acciones": [
+      "Ingreso1",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato1",
+      "Traslados y promociones1",
+      "Evaluaciones de desempeño2",
+      "Apoyos y pernoctas0",
+      "Exportar a Excel",
+      "Ver",
+      "Ver detalle (5)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Requisiciones de personal",
+     "titulo": "Requisiciones de personal",
+     "subtitulo": "Se generan solas cuando sale la carta de egreso o se da de baja a un trabajador. El Gerente o el Subgerente de la tienda la firma de manera indistinta y RRHH repone la vacante.",
+     "pestanas": [
+      "En curso",
+      "Cerradas"
+     ],
+     "secciones": [
+      "Requisiciones en curso (0)"
+     ],
+     "acciones": [
+      "En curso",
+      "Cerradas"
+     ]
+    },
+    {
+     "texto": "Nuevo ingreso",
+     "titulo": "Registro de ingreso",
+     "subtitulo": "Tienda Balú Propatria · busque primero en el listado precargado por RRHH",
+     "pestanas": [
+      "Registrar ingreso",
+      "Listado precargado"
+     ],
+     "secciones": [
+      "1. Buscar por cédula",
+      "Precargados pendientes (2)"
+     ],
+     "acciones": [
+      "Registrar ingreso",
+      "Listado precargado2",
+      "Buscar",
+      "Jhonny Alexander Peña MarcanoV-29876543 · Cajero"
+     ]
+    },
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Ver documento"
+     ]
+    },
+    {
+     "texto": "Onboarding",
+     "titulo": "Onboarding",
+     "subtitulo": "Plan de onboarding de 28 días al dar de alta a un trabajador (expectativas a los 28 y 120 días) y Programa de Formación al cargo, de X días fijados por RRHH, en cada promoción. Lo firma el supervisor directo.",
+     "pestanas": [
+      "En curso",
+      "Completados"
+     ],
+     "secciones": [],
+     "acciones": [
+      "En curso1",
+      "Completados"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Mi Tienda",
+     "titulo": "Mi Tienda",
+     "subtitulo": "17 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Nuevo ingreso",
+      "Ver detalle (17)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Tienda Balú Propatria · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semana",
+      "Ingresos por cargo"
+     ],
+     "acciones": [
+      "Exportar ingresos (CSV)",
+      "Comparativo",
+      "Solo ingresos3",
+      "Solo egresos2",
+      "Detalle de ingresos3",
+      "Detalle de egresos2",
+      "Análisis de egresos"
+     ]
+    },
+    {
+     "texto": "Reporte de egresos",
+     "titulo": "Reporte de egresos",
+     "subtitulo": "Reporte la salida de un trabajador, indique el motivo y cargue la carta de renuncia. El abandono de trabajo lo declara el Gerente o Subgerente.",
+     "pestanas": [],
+     "secciones": [
+      "Reportar el egreso de un trabajador",
+      "Egresos reportados"
+     ],
+     "acciones": [
+      "Reportar egreso"
+     ]
+    },
+    {
+     "texto": "Solicitudes",
+     "titulo": "Solicitudes",
+     "subtitulo": "Traslados, promociones y desincorporaciones con aprobación por etapas.",
+     "pestanas": [
+      "Pendientes de mi aprobación",
+      "Creadas por mí",
+      "Todas"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Nueva solicitud",
+      "Pendientes de mi aprobación",
+      "Creadas por mí1",
+      "Todas2"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Contratación y relaciones laborales",
+   "modulos": [
+    {
+     "texto": "Prueba y contratos",
+     "titulo": "Período de prueba y contratos",
+     "subtitulo": "Período de prueba: días 15, 22 y 28 · prosecución: días 70, 80 y 90 · pase a fijo: días 150, 170 y 180 (verde, amarilla y roja)",
+     "pestanas": [
+      "Por atender",
+      "En aprobación",
+      "Historial"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por atender6",
+      "En aprobación1",
+      "Historial",
+      "Evaluar",
+      "Ver detalle (6)"
+     ]
+    },
+    {
+     "texto": "Emitir amonestación",
+     "titulo": "Emitir amonestación",
+     "subtitulo": "Elija el literal del artículo 79 de la LOTTT que describe la falta y escriba los hechos: el sistema redacta el documento.",
+     "pestanas": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas"
+     ],
+     "secciones": [
+      "Nueva amonestación"
+     ],
+     "acciones": [
+      "Emitir",
+      "Modelos por literal",
+      "Emitidas",
+      "Vista previa",
+      "Registrar y generar documento"
+     ]
+    },
+    {
+     "texto": "Carga de amonestaciones",
+     "titulo": "Carga de amonestaciones",
+     "subtitulo": "Cargue la imagen o el PDF de cada amonestación. Queda en el expediente del trabajador y puede descargarse.",
+     "pestanas": [],
+     "secciones": [
+      "Cargar una amonestación (imagen o PDF)",
+      "Amonestaciones cargadas"
+     ],
+     "acciones": [
+      "Guardar amonestación"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desempeño",
+   "modulos": [
+    {
+     "texto": "Evaluaciones",
+     "titulo": "Evaluaciones",
+     "subtitulo": "Nine-Box con calibración para los cargos definidos por RRHH (gerentes, personal de tienda y administrativo) · pruebas del portal para traslados y promociones.",
+     "pestanas": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Feedback pendiente",
+      "Pendientes",
+      "Al día",
+      "Aún no elegibles",
+      "Historial",
+      "Trayectoria del trabajador"
+     ],
+     "secciones": [
+      "Candidato y movimiento",
+      "Resultados importados de Microsoft Forms"
+     ],
+     "acciones": [
+      "Traslados y promociones",
+      "Prueba IPV, Kostick y Lógico",
+      "IPC, DISC e Integridad",
+      "Feedback pendiente1",
+      "Pendientes1",
+      "Al día",
+      "Aún no elegibles4",
+      "Historial1",
+      "Trayectoria del trabajador",
+      "Certificado"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Formación",
+   "modulos": [
+    {
+     "texto": "Formación",
+     "titulo": "Formación",
+     "subtitulo": "Catálogo de formaciones, participación por trabajador y talleres. Alimenta el plan de sucesión y el expediente.",
+     "pestanas": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ],
+     "secciones": [
+      "Participación en formaciones"
+     ],
+     "acciones": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres",
+      "Registrar participación",
+      "Anotar corrección"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Datos legales y físicos de su tienda.",
+     "pestanas": [],
+     "secciones": [
+      "Balú · Balú Propatria"
+     ],
+     "acciones": []
+    }
+   ]
+  },
+  {
+   "grupo": "Operación de tiendas",
+   "modulos": [
+    {
+     "texto": "Apoyos de personal",
+     "titulo": "Apoyos de personal",
+     "subtitulo": "Personal que presta labores de apoyo en otro cargo o en otra tienda. Se registra por quincena y requiere 2 de 3 aprobaciones (Marca, Operaciones, RRHH).",
+     "pestanas": [
+      "Registrar apoyo",
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores"
+     ],
+     "secciones": [
+      "Datos del apoyo",
+      "Pago en nómina"
+     ],
+     "acciones": [
+      "Registrar apoyo",
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores",
+      "Registrar y enviar"
+     ]
+    },
+    {
+     "texto": "Pernoctas",
+     "titulo": "Pernoctas",
+     "subtitulo": "El Gerente de Tienda informa cada pernocta, su motivo, quiénes participaron y si se cumplió el objetivo. Requiere la aprobación de Gerencia de Marca, Operaciones y RRHH.",
+     "pestanas": [
+      "Informar pernocta",
+      "Pernoctas",
+      "Indicadores"
+     ],
+     "secciones": [
+      "Datos de la pernocta",
+      "Resultado",
+      "Personas que pernoctaron (0)"
+     ],
+     "acciones": [
+      "Informar pernocta",
+      "Pernoctas",
+      "Indicadores",
+      "Parcialmente"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Compensación y beneficios",
+   "modulos": [
+    {
+     "texto": "Remuneración del personal",
+     "titulo": "Remuneración del personal",
+     "subtitulo": "KPI y remuneración de su personal a cargo.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar Excel",
+      "Modelos y salarios (Excel)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de su marca. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Gerente de Tienda · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Contratación y relaciones laborales",
+      "Desempeño",
+      "Formación",
+      "Información de tiendas",
+      "Operación de tiendas",
+      "Compensación y beneficios",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": [
+      "Descargar PDF"
+     ]
+    }
+   ]
+  }
+ ],
+ "visor": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Tablero",
+     "titulo": "Tablero ejecutivo Balú",
+     "subtitulo": "Resumen al 28/10/2026. Pulse cada fila para ver el detalle.",
+     "pestanas": [],
+     "secciones": [
+      "Resumen",
+      "Plantilla frente a HCVer detalle69% de cobertura · 101 vacantes · 10 tiendas en rojo",
+      "Ingresos del mesVer detalle10 ingresos · 8 egresos · 2 con documentos por habilitar",
+      "Resultados de evaluacionesVer detalle7 aprueban · 1 reprueba · 1 en proceso"
+     ],
+     "acciones": [
+      "Plantilla activa22319 tiendasVer detalle"
+     ]
+    },
+    {
+     "texto": "Recordatorios",
+     "titulo": "Recordatorios",
+     "subtitulo": "Alertas de contratos y evaluaciones. Cada persona del flujo recibe por correo las que le corresponden.",
+     "pestanas": [],
+     "secciones": [
+      "Mis recordatorios (0)"
+     ],
+     "acciones": []
+    },
+    {
+     "texto": "Indicadores de gestión",
+     "titulo": "Indicadores de gestión de personal",
+     "subtitulo": "Cifras al 28/10/2026 para Balú · 19 tiendas · 223 trabajadores activos. Los períodos de 12 meses son los últimos 365 días.",
+     "pestanas": [],
+     "secciones": [
+      "Período de medición",
+      "KPI por área y estrategiaVer detalle9 áreas · 36 KPI · 1 buenos · 1 regulares · 9 malos",
+      "Dotación y rotaciónOcultar",
+      "Ingresos y egresos, últimos 12 mesesVer detalleoct 26: 8 ingresos · 8 egresos",
+      "Motivos de egreso (12 meses)Ver detalleRenuncia voluntaria: 36",
+      "Rotación por tienda (12 meses)Ver detalleMayor: Balú Tienda 14 82%",
+      "Tiendas con menor cobertura del HCVer detalleMenor: Balú Tienda 18 43%",
+      "Personal evaluado y su estatusVer detalle2 de 60 evaluados · 58 pendientes"
+     ],
+     "acciones": [
+      "Dotación y rotaciónOcultar",
+      "Personal activo223321 de HC aprobadoVer detalle",
+      "Rotación 12 meses34,9%65 egresosVer detalle"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes"
+     ],
+     "secciones": [
+      "Sucesión y formación (Balú)",
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Exportar a Excel",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Ver detalle (19)"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (22)"
+     ],
+     "acciones": [
+      "Ingreso7",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato1",
+      "Traslados y promociones6",
+      "Evaluaciones de desempeño8",
+      "Apoyos y pernoctas0",
+      "Incentivos de ventas0",
+      "Exportar a Excel",
+      "Ver",
+      "Ver detalle (22)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos",
+      "Ver documento"
+     ]
+    },
+    {
+     "texto": "Onboarding",
+     "titulo": "Onboarding",
+     "subtitulo": "Plan de onboarding de 28 días al dar de alta a un trabajador (expectativas a los 28 y 120 días) y Programa de Formación al cargo, de X días fijados por RRHH, en cada promoción. Lo firma el supervisor directo.",
+     "pestanas": [
+      "En curso",
+      "Completados"
+     ],
+     "secciones": [],
+     "acciones": [
+      "En curso7",
+      "Completados",
+      "Ver detalle (7)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Directorio",
+     "titulo": "Directorio · Balú",
+     "subtitulo": "242 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Ver detalle (242)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Marca Balú · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Por tienda",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semanaVer detalle10 ingresos · 8 egresos en el período",
+      "Ingresos por cargoVer detalleAsesor de Ventas: 8 · Subgerente: 2"
+     ],
+     "acciones": [
+      "Exportar ingresos (CSV)",
+      "Comparativo",
+      "Solo ingresos10",
+      "Solo egresos8",
+      "Por tienda",
+      "Detalle de ingresos10",
+      "Detalle de egresos8",
+      "Análisis de egresos",
+      "Ver detalle (20)"
+     ]
+    },
+    {
+     "texto": "Solicitudes",
+     "titulo": "Solicitudes",
+     "subtitulo": "Traslados, promociones y desincorporaciones con aprobación por etapas.",
+     "pestanas": [
+      "Pendientes de mi aprobación",
+      "Todas"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Pendientes de mi aprobación",
+      "Todas5"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Contratación y relaciones laborales",
+   "modulos": [
+    {
+     "texto": "Prueba y contratos",
+     "titulo": "Período de prueba y contratos",
+     "subtitulo": "Período de prueba: días 15, 22 y 28 · prosecución: días 70, 80 y 90 · pase a fijo: días 150, 170 y 180 (verde, amarilla y roja)",
+     "pestanas": [
+      "Por atender",
+      "En aprobación",
+      "Historial"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por atender18",
+      "En aprobación1",
+      "Historial",
+      "Ver detalle (18)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Formación",
+   "modulos": [
+    {
+     "texto": "Formación",
+     "titulo": "Formación",
+     "subtitulo": "Catálogo de formaciones, participación por trabajador y talleres. Alimenta el plan de sucesión y el expediente.",
+     "pestanas": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ],
+     "secciones": [
+      "Participación en formaciones"
+     ],
+     "acciones": [
+      "Participaciones",
+      "Catálogo",
+      "Talleres"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Desarrollo",
+   "modulos": [
+    {
+     "texto": "Plan de sucesión",
+     "titulo": "Plan de sucesión y carrera",
+     "subtitulo": "Cobertura de cargos clave y rutas de crecimiento del personal de tienda.",
+     "pestanas": [
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo"
+     ],
+     "secciones": [
+      "Mapa por tienda (consolidado Balú)",
+      "Escala de cargos de tienda"
+     ],
+     "acciones": [
+      "Mapa de sucesión",
+      "Banco de talento",
+      "Evolución mensual",
+      "Planes de desarrollo",
+      "Ver detalle (19)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Ubicación, metraje y números de registro patronal de cada tienda. RRHH mantiene esta información.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Exportar CSV",
+      "Ver detalle (20)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Operación de tiendas",
+   "modulos": [
+    {
+     "texto": "Apoyos de personal",
+     "titulo": "Apoyos de personal",
+     "subtitulo": "Personal que presta labores de apoyo en otro cargo o en otra tienda. Se registra por quincena y requiere 2 de 3 aprobaciones (Marca, Operaciones, RRHH).",
+     "pestanas": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Apoyos de la quincena",
+      "Reporte quincenal",
+      "Indicadores",
+      "Reporte PDF",
+      "Exportar CSV"
+     ]
+    },
+    {
+     "texto": "Pernoctas",
+     "titulo": "Pernoctas",
+     "subtitulo": "El Gerente de Tienda informa cada pernocta, su motivo, quiénes participaron y si se cumplió el objetivo. Requiere la aprobación de Gerencia de Marca, Operaciones y RRHH.",
+     "pestanas": [
+      "Pernoctas",
+      "Indicadores"
+     ],
+     "secciones": [
+      "Pernoctas por motivo",
+      "Personas que realizaron pernoctas"
+     ],
+     "acciones": [
+      "Pernoctas",
+      "Indicadores"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Compensación y beneficios",
+   "modulos": [
+    {
+     "texto": "Incentivos de ventas",
+     "titulo": "Incentivos de ventas",
+     "subtitulo": "Concursos, campañas y otros incentivos con tiendas en 1.er, 2.º y 3.er lugar. RRHH registra, Gerencia General aprueba y se emite el documento para Nómina. Participa la plantilla activa con más de 14 días de antigüedad.",
+     "pestanas": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Por aprobar",
+      "Incentivos del mes",
+      "Relación de pago"
+     ]
+    },
+    {
+     "texto": "Modelos de compensación",
+     "titulo": "Modelos de compensación",
+     "subtitulo": "Estructura de compensación vigente en cada tienda. La ven Gerencia de Marca, Operaciones, Gerencia General, RRHH, Administrador y la Dirección Ejecutiva; solo RRHH y Gerencia General la modifican.",
+     "pestanas": [
+      "Por tienda",
+      "Modelos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Exportar a Excel",
+      "Por tienda20",
+      "Modelos",
+      "Ver detalle (20)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de su marca. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Visor General · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Contratación y relaciones laborales",
+      "Formación",
+      "Desarrollo",
+      "Información de tiendas",
+      "Operación de tiendas",
+      "Compensación y beneficios",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": [
+      "Descargar PDF"
+     ]
+    }
+   ]
+  }
+ ],
+ "consulta": [
+  {
+   "grupo": "Inicio",
+   "modulos": [
+    {
+     "texto": "Resumen",
+     "titulo": "Informes de RRHH · Balú",
+     "subtitulo": "Resumen al 28/10/2026. Pulse cada fila para ver el detalle.",
+     "pestanas": [],
+     "secciones": [
+      "Resumen",
+      "Plantilla frente a HCVer detalle69% de cobertura · 101 vacantes · 10 tiendas en rojo",
+      "Vencimientos de contratoVer detalle1 en rojo · 10 en amarillo · 7 en verde",
+      "Ingresos del mesVer detalle10 ingresos · 8 egresos · 2 con documentos por habilitar",
+      "Pernoctas (30 días)Ver detalleSin pernoctas",
+      "Resultados de evaluacionesVer detalle7 aprueban · 1 reprueba · 1 en proceso"
+     ],
+     "acciones": [
+      "Plantilla activa22319 tiendasVer detalle",
+      "Pernoctas (30 días)Ver detalleSin pernoctas"
+     ]
+    },
+    {
+     "texto": "Informes",
+     "titulo": "Informes",
+     "subtitulo": "Resultados de cada módulo y sus documentos. No incluye rutas de aprobación ni comentarios.",
+     "pestanas": [
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Estatus de solicitudes",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes"
+     ],
+     "secciones": [
+      "Por marca",
+      "Por tienda"
+     ],
+     "acciones": [
+      "Imprimir informe",
+      "Informe global",
+      "Plantilla y HC",
+      "Contratos y período de prueba",
+      "Evaluaciones Nine-Box",
+      "Traslados, promociones y egresos",
+      "Apoyos de personal",
+      "Pernoctas",
+      "Incentivos de ventas",
+      "Onboarding",
+      "Pruebas y evaluaciones psicotécnicas",
+      "Estatus de solicitudes",
+      "Egresos críticos (entrevistas de salida)",
+      "Cumpleaños del mes",
+      "Ver detalle (19)"
+     ]
+    },
+    {
+     "texto": "Documentos",
+     "titulo": "Documentos",
+     "subtitulo": "Todos los documentos generados en cada fase del proceso: ingreso, contrato, movimientos, evaluaciones, apoyos, pernoctas e incentivos.",
+     "pestanas": [],
+     "secciones": [
+      "Todos los documentos (19)"
+     ],
+     "acciones": [
+      "Ingreso7",
+      "Documentos de ingreso (día 2)0",
+      "Período de prueba y contrato0",
+      "Traslados y promociones4",
+      "Evaluaciones de desempeño8",
+      "Apoyos y pernoctas0",
+      "Incentivos de ventas0",
+      "Ver",
+      "Ver detalle (19)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Reclutamiento e ingreso",
+   "modulos": [
+    {
+     "texto": "Perfiles de cargo",
+     "titulo": "Perfiles de cargo",
+     "subtitulo": "Descripción de cargo, exámenes, plan de onboarding y condiciones de evaluación de cada cargo de tienda. Fuente: descripciones de cargo de tienda de Balú (14/04/2026) y de Planeta Sports (CCCT, Sambil Chacao y Sambil Candelaria); en Planeta, el cargo sin descripción propia usa la de Balú.",
+     "pestanas": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos"
+     ],
+     "secciones": [],
+     "acciones": [
+      "Cargos de tienda",
+      "Cargos administrativos y corporativos",
+      "Ver documento"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Administración de personal",
+   "modulos": [
+    {
+     "texto": "Directorio",
+     "titulo": "Directorio · Balú",
+     "subtitulo": "242 trabajadores en la vista",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Ver detalle (242)"
+     ]
+    },
+    {
+     "texto": "Ingresos y egresos",
+     "titulo": "Ingresos y egresos",
+     "subtitulo": "Marca Balú · del 01/10/2026 al 28/10/2026",
+     "pestanas": [
+      "Comparativo",
+      "Solo ingresos",
+      "Solo egresos",
+      "Por tienda",
+      "Detalle de ingresos",
+      "Detalle de egresos",
+      "Análisis de egresos"
+     ],
+     "secciones": [
+      "Ingresos y egresos por semanaVer detalle10 ingresos · 8 egresos en el período",
+      "Ingresos por cargoVer detalleAsesor de Ventas: 8 · Subgerente: 2"
+     ],
+     "acciones": [
+      "Comparativo",
+      "Solo ingresos10",
+      "Solo egresos8",
+      "Por tienda",
+      "Detalle de ingresos10",
+      "Detalle de egresos8",
+      "Análisis de egresos",
+      "Ver detalle (20)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Información de tiendas",
+   "modulos": [
+    {
+     "texto": "Información de tiendas",
+     "titulo": "Información de tiendas",
+     "subtitulo": "Ubicación, metraje y números de registro patronal de cada tienda. RRHH mantiene esta información.",
+     "pestanas": [],
+     "secciones": [],
+     "acciones": [
+      "Ver detalle (20)"
+     ]
+    }
+   ]
+  },
+  {
+   "grupo": "Ayuda",
+   "modulos": [
+    {
+     "texto": "Políticas",
+     "titulo": "Políticas de RRHH",
+     "subtitulo": "Políticas de los procesos del sistema por subsistema de RRHH, con el logo y la razón social de su marca. Versión 1.0 · 08/10/2026.",
+     "pestanas": [],
+     "secciones": [
+      "Reclutamiento, selección e ingreso de personal"
+     ],
+     "acciones": [
+      "Ver documento",
+      "Todas las políticas",
+      "POL-RI-02 · Inducción y onboarding",
+      "POL-FO-01 · Formación, talleres y capacitación",
+      "POL-DS-02 · Clima laboral y buzón de sugerencias",
+      "POL-OT-02 · Pernoctas",
+      "POL-OT-03 · Jornada, horarios y días de descanso",
+      "POL-OT-04 · Cobertura de vacantes y polivalencia",
+      "POL-OT-05 · Recepción y preparación de mercancía",
+      "POL-OT-06 · Facturación, medios de pago y cambios",
+      "POL-OT-07 · Apertura y cierre de caja",
+      "POL-CB-01 · Incentivos de ventas",
+      "POL-CB-02 · Remuneración variable y comisiones",
+      "POL-AS-01 · Usuarios, accesos y trazabilidad"
+     ]
+    },
+    {
+     "texto": "Manual de uso",
+     "titulo": "Manual de uso",
+     "subtitulo": "Consulta RRHH Futura · versión 1.33.0. Solo usted ve el manual de su perfil.",
+     "pestanas": [],
+     "secciones": [
+      "1. Su perfil",
+      "2. Lo que puede hacer",
+      "3. Su menú",
+      "4. Uso general",
+      "Entrar al sistema",
+      "Cómo se organiza la pantalla",
+      "Responsables y trazabilidad",
+      "Autenticación de documentos (código QR) y exportación a Excel",
+      "Recordatorios por correo y ventana de cumpleaños",
+      "5. Módulos, paso a paso",
+      "Inicio",
+      "Reclutamiento e ingreso",
+      "Administración de personal",
+      "Información de tiendas",
+      "Ayuda",
+      "6. Novedades de las últimas versiones",
+      "7. Ayuda"
+     ],
+     "acciones": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const html = '<!doctype html><html><head></head><body>' + fs.readFileSync('talento-balu.html', 'utf8') + '</body></html>';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const espera = (ms = 40) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const dom = new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true, url: 'https://ejemplo.test/', beforeParse(w) { w.scrollTo = () => {}; } });
+  await espera(300); const w = dom.window, d = w.document;
+  const click = async (el) => { if (!el) throw new Error('falta elemento'); el.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(200); };
+  const boton = (t, i = 0) => [...d.querySelectorAll('button')].filter((x) => x.textContent.trim().includes(t))[i];
+  const texto = () => d.body.textContent;
+  const setValor = (el, v) => { const proto = el.tagName === 'SELECT' ? w.HTMLSelectElement.prototype : el.tagName === 'TEXTAREA' ? w.HTMLTextAreaElement.prototype : w.HTMLInputElement.prototype; Object.getOwnPropertyDescriptor(proto, 'value').set.call(el, v); el.dispatchEvent(new w.Event(el.tagName === 'SELECT' ? 'change' : 'input', { bubbles: true })); };
+  const tab = (t) => [...d.querySelectorAll('[role=tab]')].find((b) => b.textContent.includes(t));
+  await click(boton('Gerente de RRHH', 0)); await espera(400);
+  // Evaluaciones > Trayectoria
+  await click(boton('Evaluaciones'));
+  await click(tab('Trayectoria del trabajador'));
+  ok(Boolean(d.getElementById('tr-q')) && texto().includes('Buscar trabajador'), 'Buscador de trayectorias en Evaluaciones');
+  setValor(d.getElementById('tr-q'), 'Tovar'); await espera(250);
+  const fila = [...d.querySelectorAll('table tbody tr')].find((r) => /Tovar|Josselyn/i.test(r.textContent));
+  ok(Boolean(fila), 'Aparece la persona de prueba');
+  await click(fila);
+  ok(texto().includes('Línea de tiempo') && texto().includes('Taller: Inducción corporativa') && texto().includes('Evaluación Nine-Box') && texto().includes('Nominación en el plan de sucesión'), 'Línea de tiempo con formaciones, evaluación y nominación');
+  const antes = JSON.parse(w.localStorage.getItem('talento-balu-v2')); const n0 = (antes.datos || antes).documentos.length;
+  await click(boton('Generar informe de trayectoria'));
+  const desp = JSON.parse(w.localStorage.getItem('talento-balu-v2')); const dd = desp.datos || desp;
+  const docs = dd.documentos.filter((x) => x.clave === 'trayectoria');
+  ok(dd.documentos.length === n0 + 1 && docs.length === 1 && docs[0].categoria === 'EVALUACION' && docs[0].html.includes('Fecha de registro') && docs[0].html.includes('versión 1'), 'PDF guardado como documento versionado en fase Evaluación con fechas de evento y registro');
+  ok(!/contraseña/i.test(docs[0].html), 'Sin datos indebidos');
+  console.log('OK trayectoria');
+})();

@@ -1,0 +1,41 @@
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const html = '<!doctype html><html><head></head><body>' + fs.readFileSync('talento-balu.html', 'utf8') + '</body></html>';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const crear = (estado) => new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true, url: 'https://ejemplo.test/',
+  beforeParse(w) { w.scrollTo = () => {}; w.URL.createObjectURL = () => 'blob:x'; w.URL.revokeObjectURL = () => {}; w.console.error = () => {}; if (estado) w.localStorage.setItem('talento-balu-v2', estado); } });
+const espera = (ms = 30) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const P = await import('./ponderacion.js'); const K = await import('./kostick.js'); const C = await import('./ipc.js');
+  const LEO = JSON.parse(fs.readFileSync('fixtures/kostick-leonardo.json', 'utf8')); LEO['60'] = 'a';
+  const d1 = crear(); await espera(300);
+  const estado = JSON.parse(d1.window.localStorage.getItem('talento-balu-v2'));
+  d1.window.close();
+  const sol = estado.solicitudes.find((x) => x.id === 'S-PRUEBA-IPV'); const trab = estado.trabajadores.find((x) => x.id === sol.trabajadorId);
+  const ac = estado.accesosPrueba.find((a) => a.solicitudId === sol.id);
+  ok(ac.bateria.includes('IPC') && ac.bateria.includes('KOSTICK') && !ac.bateria.includes('IPV') && ac.cargoOrigenId === 'SUB' && ac.cargoDestinoId === 'GT', 'Registro de prueba: Subgerente a Gerente de Tienda con IPC y Kostick (máximo 3 pruebas)');
+  const hoy = new Date().toISOString().slice(0, 10); const ahora = new Date().toISOString();
+  const rIPC = {}; for (const it of C.IPC_ITEMS) { rIPC[it[0]] = it[1] === 'DS' ? 3 : it[1] === 'ATN' ? Number(it[2]) : 4; }
+  const hecha = (resp) => ({ respuestas: resp, intentos: [{ inicio: ahora, fin: ahora, cierre: 'ENVIADA' }], extra: 0, completada: true });
+  ac.ev = { IPC: hecha(rIPC), KOSTICK: hecha(LEO) }; ac.estado = 'COMPLETADA'; ac.nivelEducativo = 'Universitario';
+  estado.evaluaciones.unshift({ id: 'E-T', trabajadorId: trab.id, evaluadorId: 'marca', fecha: hoy, respuestasDesempeno: [4], respuestasPotencial: [4], promedioDesempeno: 4, promedioPotencial: 4, cajaNineBox: 8, puntaje: 8, estatus: 'APROBADO', cargoId: 'SUB', tiendaId: trab.tiendaId, motivo: 'MOVIMIENTO', estadoAprobacion: 'APROBADA', fechaAprobacion: hoy, solicitudId: '' });
+  trab.formacion = { nivel: 'Universitario', titulo: 'Licenciada en Administración', complementaria: 'Diplomado en Liderazgo' };
+  const mIPV = C.matchIPC(C.corregirIPC(rIPC), C.IPC_PERFIL_CARGO_INICIAL.GT).porcentaje, mK = K.matchKostick(K.corregirKostick(LEO), K.KOSTICK_PERFILES_INICIALES.GT).pct;
+  const amon = (estado.amonestaciones || []).filter((a) => a.trabajadorId === trab.id && !a.anulada).length;
+  const esperado = P.calcularPonderado({ NINEBOX: 50, KOSTICK: 30, CONDUCTA: 10, OTRA: 10 }, { NINEBOX: { pct: 80 }, KOSTICK: { pct: mK }, CONDUCTA: { pct: P.puntajeConducta(amon, estado.config.maxAmonestaciones) } }).total;
+  const esperadoSub = P.calcularPonderado({ IPC: 20, KOSTICK: 40, NINEBOX: 30, CONDUCTA: 10 }, { IPC: { pct: mIPV }, KOSTICK: { pct: mK }, NINEBOX: { pct: 80 }, CONDUCTA: { pct: P.puntajeConducta(amon, estado.config.maxAmonestaciones) } }).total;
+  const dom = crear(JSON.stringify(estado)); await espera(300);
+  const w = dom.window, d = w.document; const texto = () => d.getElementById('root').textContent;
+  const click = async (el) => { el.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(); for (let k = 0; k < 4; k++) { const ps = [...w.document.querySelectorAll('[data-plegado="1"]')]; if (!ps.length) break; ps.forEach((b) => b.dispatchEvent(new w.MouseEvent('click', { bubbles: true }))); await espera(); } };
+  const boton = (t, i = 0) => { const b = [...d.querySelectorAll('button')].filter((x) => x.textContent.trim().includes(t)); if (!b[i]) throw new Error('No hay botón: ' + t); return b[i]; };
+  await click(boton('Gerente de RRHH', 0)); await click(boton('Solicitudes'));
+  const tab = [...d.querySelectorAll('[role=tab]')].find((x) => x.textContent.trim().startsWith('Todas')); if (tab) await click(tab);
+  const fila = [...d.querySelectorAll('main tbody tr')].find((r) => r.textContent.includes('S-PRUEBA-IPV')); await click(fila);
+  const t = texto();
+  ok(t.includes('Match con el puesto de Gerente de Tienda') && !t.includes('Match con el puesto de Gerente de Tienda (preliminar)') && t.includes('La constancia es definitiva'), 'Solicitud: el match ponderado está completo y la constancia es definitiva');
+  await click(boton('Constancia de match (PDF)')); await espera(150); await click(boton('Vista del documento'));
+  const tx = [...d.querySelectorAll('[role=dialog]')].pop().textContent;
+  ok(tx.includes('Resultado definitivo') && !tx.includes('Constancia preliminar') && tx.includes(esperadoSub + '%'), 'Constancia definitiva con el match ponderado de ' + esperadoSub + ' % (IPC 20, Kostick 40, Nine-Box 30, conducta 10)');
+  ok(!tx.includes('Por definir') && tx.includes('Personalidad Comercial') && tx.includes('Evaluación Nine-Box') && tx.includes('Inventario Kostick') && tx.includes('Conducta') && tx.includes('Licenciada en Administración') && tx.includes('Diplomado en Liderazgo') && tx.includes('Josselyn Tovar'), 'Constancia: componentes del esquema de Subgerente y formación académica');
+  dom.window.close();
+})();

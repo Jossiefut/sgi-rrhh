@@ -1,0 +1,66 @@
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const html = '<!doctype html><html><head></head><body>' + fs.readFileSync('talento-balu.html', 'utf8') + '</body></html>';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const espera = (ms = 40) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const dom = new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true, url: 'https://ejemplo.test/', beforeParse(w) { w.scrollTo = () => {}; } });
+  await espera(300); const w = dom.window, d = w.document;
+  const click = async (el) => { if (!el) throw new Error('falta elemento'); el.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(200); };
+  const boton = (t, i = 0) => [...d.querySelectorAll('button')].filter((x) => x.textContent.trim().includes(t))[i];
+  const texto = () => d.body.textContent;
+  const setValor = (el, v) => { const proto = el.tagName === 'SELECT' ? w.HTMLSelectElement.prototype : el.tagName === 'TEXTAREA' ? w.HTMLTextAreaElement.prototype : w.HTMLInputElement.prototype; Object.getOwnPropertyDescriptor(proto, 'value').set.call(el, v); el.dispatchEvent(new w.Event(el.tagName === 'SELECT' ? 'change' : 'input', { bubbles: true })); };
+  const db = () => { const e = JSON.parse(w.localStorage.getItem('talento-balu-v2')); return e.datos || e; };
+  await click(boton('Administrador', 0)); await espera(200);
+  const s2 = db().solicitudes.find((x) => x.id === 'S002');
+  const trab0 = db().trabajadores.find((x) => x.id === s2.trabajadorId);
+  const destino = s2.datosPropuestos.tiendaDestinoId;
+  ok(trab0.tiendaId !== destino, `Antes: el trabajador está en otra tienda que el destino`);
+  const dlgBtn = (t) => [...d.querySelectorAll('[role=dialog] button')].find((x) => x.textContent.trim() === t);
+  await click(boton('Salir')); await click(boton('Gerente de RRHH', 0));
+  await click(boton('Pendientes de mi aprobación'));
+  await click([...d.querySelectorAll('tr')].find((r) => r.textContent.includes('S002')));
+  await click(boton('Validar', 0));
+  setValor(d.getElementById('dlg-comentario'), 'Resultados congruentes con el expediente y el desempeño.'); await espera();
+  await click(dlgBtn('Validar'));
+  await click(boton('Salir')); await click(boton('Gerente General', 0));
+  await click(boton('Pendientes de mi aprobación'));
+  await click([...d.querySelectorAll('tr')].find((r) => r.textContent.includes('S002')));
+  await click(boton('Aprobar y firmar', 0));
+  d.getElementById('dlg-firma').click(); await espera();
+  await click(dlgBtn('Aprobar y firmar')); await espera(300);
+  await click(boton('Salir')); await click(boton('Administrador', 0)); await espera(200);
+  const s2b = db().solicitudes.find((x) => x.id === 'S002');
+  ok(s2b.estado === 'EJECUTADA', 'El traslado queda ejecutado al completar la ruta');
+  const trab1 = db().trabajadores.find((x) => x.id === s2.trabajadorId);
+  ok(trab1.tiendaId === destino, 'El sistema actualiza la tienda del trabajador al nuevo destino');
+  ok((trab1.historial || []).some((h) => h.tipo === 'TRASLADO'), 'Queda el movimiento en el historial del trabajador');
+  const ult = s2b.eventos[s2b.eventos.length - 1]; const penult = s2b.eventos.find((e) => e.accion === 'EJECUTADA') || ult;
+  ok(s2b.eventos.filter((e) => e.usuarioNombre && e.usuarioRol).length >= 3, 'Cada evento guarda el nombre y rol del usuario al actuar');
+  ok(s2b.pasos.slice(2).every((p) => p.usuarioId && p.usuarioNombre && p.usuarioRol), 'Cada paso aprobado guarda la foto del usuario');
+  const ultimoEv = s2b.eventos.filter((e) => e.accion === 'EJECUTADA' || e.accion === 'APROBADA').pop();
+  ok(ultimoEv.usuarioCargo === 'Gerente General' && /Oficina administrativa/.test(ultimoEv.usuarioUbicacion), 'Cada acción guarda cargo y ubicación (Gerente General · Oficina administrativa)');
+  const bit = db().bitacora.find((b) => b.entidadId === 'S002' && /resultado: aprobada/.test(b.detalle));
+  ok(Boolean(bit) && bit.usuarioNombre, 'La bitácora registra el resultado (aprobada) y quién lo hizo');
+  /* Documentos: pie con quién lo emitió y quién aprobó cada paso */
+  await click(boton('Solicitudes', 0)); await click(boton('Todas', 0)).catch?.(() => {});
+  const filaS2 = [...d.querySelectorAll('tr')].find((r) => r.textContent.includes('S002'));
+  if (filaS2) await click(filaS2);
+  const rg = [...d.querySelectorAll('button')].find((b) => b.textContent.trim().startsWith('Ruta habitual de traslado'));
+  if (rg) { await click(rg); await espera(200); const vd = boton('Vista del documento'); if (vd) await click(vd); await espera(200); }
+  ok(texto().includes('Emitido por:') && texto().includes('Oficina administrativa'), 'Los documentos llevan «Emitido por» con nombre, cargo y ubicación');
+  /* Informe de trazabilidad */
+  await click(boton('Trazabilidad', 0)); await espera(200);
+  ok(texto().includes('Quién aprobó cada flujo') && texto().includes('Aprobó') && texto().includes('Traslado') && texto().includes('Gerente General · Oficina administrativa'), 'Informe «Aprobaciones por flujo» con quién aprobó, cargo y ubicación');
+  setValor(d.getElementById('ap-flujo'), 'Traslado'); await espera(150);
+  const filas = d.querySelectorAll('tbody tr').length;
+  ok(filas >= 4, `Filtrado por flujo Traslado (${filas} movimientos)`);
+  ok(Boolean(boton('Exportar a CSV')), 'Permite exportar el informe');
+  await click(boton('Bitácora general')); await espera(200);
+  ok(texto().includes('Aprobó') && texto().includes('resultado: aprobada'), 'La bitácora general muestra acción y resultado');
+  /* Usuarios: no se reutilizan */
+  await click(boton('Usuarios y accesos', 0)); await espera(200);
+  await click(boton('Editar', 0)); await espera(200);
+  ok(d.getElementById('us-nombre').disabled && d.getElementById('us-rol').disabled && texto().includes('Un usuario no se reutiliza'), 'Un usuario existente no puede cambiar de persona ni de rol');
+  process.exit(process.exitCode || 0);
+})();

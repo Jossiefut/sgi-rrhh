@@ -1,0 +1,31 @@
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const html = '<!doctype html><html><head></head><body>' + fs.readFileSync('talento-balu.html', 'utf8') + '</body></html>';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const espera = (ms = 40) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const dom = new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true, url: 'https://ejemplo.test/', beforeParse(w) { w.scrollTo = () => {}; } });
+  await espera(300); const w = dom.window, d = w.document;
+  const click = async (el) => { if (!el) throw new Error('falta elemento'); el.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(200); };
+  const boton = (t, i = 0) => [...d.querySelectorAll('button')].filter((x) => x.textContent.trim().includes(t))[i];
+  const texto = () => d.body.textContent;
+  const setValor = (el, v) => { const proto = el.tagName === 'SELECT' ? w.HTMLSelectElement.prototype : w.HTMLInputElement.prototype; Object.getOwnPropertyDescriptor(proto, 'value').set.call(el, v); el.dispatchEvent(new w.Event(el.tagName === 'SELECT' ? 'change' : 'input', { bubbles: true })); };
+  setValor(d.getElementById('login-tienda'), 'gerente.propatria'); await espera(); await click(boton('Entrar')); await espera(300);
+  await click(boton('Nuevo ingreso'));
+  setValor(d.getElementById('bus-numero'), '30111222'); await espera(); await click(boton('Buscar')); await espera(300);
+  ok(Boolean(d.getElementById('in-manual')) && Boolean(d.getElementById('in-ficha-manual')), 'Persona fuera del repositorio: aviso y ficha completa a mano');
+  ['fm-genero', 'fm-nacionalidad', 'fm-tipoVivienda', 'fm-zurdo', 'fm-tieneHijos', 'fm-padresViven', 'fm-rif', 'fm-correo', 'fm-sector', 'fm-municipio', 'fm-estadoResidencia', 'fm-emergencia1', 'fm-camisa', 'fm-pantalon', 'fm-calzado'].forEach((id) => ok(Boolean(d.getElementById(id)), `Campo ${id}`));
+  await click(boton('Guardar y generar documentos'));
+  ok(texto().includes('Indique el teléfono') && texto().includes('Indique la talla de camisa'), 'No guarda con la ficha incompleta');
+  setValor(d.getElementById('in-nombres'), 'Luis'); setValor(d.getElementById('in-apellidos'), 'Prueba Manual');
+  setValor(d.getElementById('in-fnac'), '1998-05-10'); setValor(d.getElementById('in-telefono'), '0412-1234567');
+  setValor(d.getElementById('in-civil'), 'Soltero/a'); setValor(d.getElementById('in-nivel'), d.getElementById('in-nivel').options[1].value);
+  setValor(d.getElementById('in-titulo'), 'Bachiller'); setValor(d.getElementById('in-dir'), 'Calle 1, casa 2, Caracas');
+  const v = { 'fm-genero': 'Masculino', 'fm-nacionalidad': 'Venezolano/a', 'fm-tipoVivienda': 'Propia', 'fm-zurdo': 'No', 'fm-tieneHijos': 'No', 'fm-padresViven': 'Ambos', 'fm-rif': 'V-30111222-0', 'fm-correo': 'luis@correo.com', 'fm-sector': 'Centro', 'fm-municipio': 'Libertador', 'fm-estadoResidencia': 'Distrito Capital', 'fm-emergencia1': 'Ana, madre, 0414-0000000', 'fm-camisa': 'M', 'fm-pantalon': '32', 'fm-calzado': '40' };
+  for (const k of Object.keys(v)) { setValor(d.getElementById(k), v[k]); await espera(10); }
+  await click(boton('Guardar y generar documentos')); await espera(400);
+  const est = JSON.parse(w.localStorage.getItem('talento-balu-v2')); const dat = est.datos || est;
+  const fi = (dat.fichas || []).find((x) => x.cedula === '30111222');
+  ok(Boolean(fi) && fi.tallas.camisa === 'M' && fi.rif === 'V-30111222-0' && fi.fuente.includes('a mano'), 'La ficha completa queda guardada');
+  ok(dat.trabajadores.some((x) => x.cedula === 'V-30111222' && x.datosManuales), 'Trabajador creado con datos manuales');
+})();

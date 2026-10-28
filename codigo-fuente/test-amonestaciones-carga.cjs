@@ -1,0 +1,47 @@
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const html = '<!doctype html><html><head></head><body>' + fs.readFileSync('talento-balu.html', 'utf8') + '</body></html>';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const espera = (ms = 40) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const dom = new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true, url: 'https://ejemplo.test/', beforeParse(w) { w.scrollTo = () => {}; } });
+  await espera(300); const w = dom.window, d = w.document;
+  const click = async (el) => { if (!el) throw new Error('falta elemento'); el.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(150); };
+  const boton = (t, i = 0) => [...d.querySelectorAll('button')].filter((x) => x.textContent.trim().includes(t))[i];
+  const texto = () => d.body.textContent;
+  const setValor = (el, v) => { Object.getOwnPropertyDescriptor(w.HTMLInputElement.prototype, 'value').set.call(el, v); el.dispatchEvent(new w.Event('input', { bubbles: true })); };
+  const est = JSON.parse(w.localStorage.getItem('talento-balu-v2')); const dat = est.datos || est;
+  const t = dat.trabajadores.find((x) => x.estatus === 'ACTIVO' && x.tiendaId === 'T01' && x.cargoId === 'ASE');
+  await click(boton('Gerente de RRHH', 0)); await espera(300);
+  // Nuevo ingreso: la ficha se ve aunque no haya datos del repositorio
+  await click(boton('Nuevo ingreso'));
+  setValor(d.getElementById('bus-numero'), '30999888'); await espera(); await click(boton('Buscar')); await espera(200);
+  ok(texto().includes('Ficha del trabajador') && Boolean(boton('Ver y descargar ficha en PDF')) && texto().includes('Datos personales y contacto'), 'Nuevo ingreso: la ficha y el botón de PDF se ven aunque la cédula no esté en el repositorio');
+  ok(Boolean(boton('Consultar repositorio')), 'Botón «Consultar repositorio» disponible');
+  // Carga de amonestaciones
+  await click(boton('Carga de amonestaciones'));
+  ok(Boolean(d.getElementById('am-archivo')), 'Barra lateral (Contratación y relaciones laborales): módulo propio para cargar el archivo de amonestaciones');
+  const setS0 = (el, v) => { Object.getOwnPropertyDescriptor(w.HTMLInputElement.prototype, 'value').set.call(el, v); el.dispatchEvent(new w.Event('input', { bubbles: true })); };
+  setS0(d.getElementById('am-busq'), t.cedula); await espera(150);
+  const sel = d.getElementById('am-trab'); const opt = [...sel.options].find((o) => o.value === t.id);
+  const setS = (el, v) => { const proto = el.tagName === 'SELECT' ? w.HTMLSelectElement.prototype : el.tagName === 'TEXTAREA' ? w.HTMLTextAreaElement.prototype : w.HTMLInputElement.prototype; Object.getOwnPropertyDescriptor(proto, 'value').set.call(el, v); el.dispatchEvent(new w.Event(el.tagName === 'SELECT' ? 'change' : 'input', { bubbles: true })); };
+  ok(Boolean(opt), 'El trabajador aparece en la lista');
+  setS(sel, t.id); await espera(50);
+  setS(d.getElementById('am-fecha'), '2026-09-01'); setS(d.getElementById('am-motivo'), 'Retardos reiterados en el mes de agosto');
+  await click(boton('Guardar amonestación'));
+  ok(texto().includes('Cargue el documento'), 'Exige el documento en imagen o PDF');
+  const malo = new w.File(['x'], 'datos.xlsx', { type: 'application/vnd.ms-excel' });
+  const inp = d.getElementById('am-archivo');
+  Object.defineProperty(inp, 'files', { value: [malo], configurable: true });
+  inp.dispatchEvent(new w.Event('change', { bubbles: true })); await espera(300);
+  ok(texto().includes('imagen (PNG, JPG) o un PDF'), 'Rechaza formatos que no son imagen ni PDF');
+  const pdf = new w.File(['%PDF-1.4 prueba'], 'amonestacion.pdf', { type: 'application/pdf' });
+  Object.defineProperty(inp, 'files', { value: [pdf], configurable: true });
+  inp.dispatchEvent(new w.Event('change', { bubbles: true })); await espera(400);
+  await click(boton('Guardar amonestación')); await espera(200);
+  const est2 = JSON.parse(w.localStorage.getItem('talento-balu-v2')); const d2 = est2.datos || est2;
+  const am = (d2.amonestaciones || []).find((a) => a.trabajadorId === t.id && a.fecha === '2026-09-01');
+  ok(Boolean(am) && am.archivo && am.archivo.mime === 'application/pdf' && am.archivo.datos.startsWith('data:application/pdf'), 'La amonestación queda guardada con su PDF');
+  ok(Boolean(boton('Descargar')), 'Botón de descarga del documento');
+  process.exit(process.exitCode || 0);
+})();

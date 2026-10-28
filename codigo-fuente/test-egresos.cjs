@@ -1,0 +1,55 @@
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const html = '<!doctype html><html><head></head><body>' + fs.readFileSync('talento-balu.html', 'utf8') + '</body></html>';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const espera = (ms = 40) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const dom = new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true, url: 'https://ejemplo.test/', beforeParse(w) { w.scrollTo = () => {}; } });
+  await espera(300); const w = dom.window, d = w.document;
+  const click = async (el) => { if (!el) throw new Error('falta elemento'); el.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(200); };
+  const boton = (t, i = 0) => [...d.querySelectorAll('button')].filter((x) => x.textContent.trim().includes(t))[i];
+  const texto = () => d.body.textContent;
+  const setValor = (el, v) => { const proto = el.tagName === 'SELECT' ? w.HTMLSelectElement.prototype : el.tagName === 'TEXTAREA' ? w.HTMLTextAreaElement.prototype : w.HTMLInputElement.prototype; Object.getOwnPropertyDescriptor(proto, 'value').set.call(el, v); el.dispatchEvent(new w.Event(el.tagName === 'SELECT' ? 'change' : 'input', { bubbles: true })); };
+  const estado = () => { const est = JSON.parse(w.localStorage.getItem('talento-balu-v2')); return est.datos || est; };
+  setValor(d.getElementById('login-tienda'), 'gerente.propatria'); await espera(); await click(boton('Entrar')); await espera(300);
+  await click(boton('Reporte de egresos'));
+  ok(Boolean(d.getElementById('eg-trab')) && texto().includes('Reportar el egreso de un trabajador'), 'La tienda ve el módulo Reporte de egresos');
+  const opts = [...d.getElementById('eg-trab').options].filter((o) => o.value);
+  ok(opts.length > 0, 'Lista trabajadores activos de su tienda');
+  const trabId = opts[0].value;
+  const antes = estado().solicitudes.length;
+  /* Renuncia sin carta */
+  setValor(d.getElementById('eg-trab'), trabId); setValor(d.getElementById('eg-motivo'), 'Renuncia voluntaria'); await espera();
+  setValor(d.getElementById('eg-detalle'), 'Presentó su renuncia por motivos personales.'); await espera();
+  await click(boton('Reportar egreso'));
+  ok(texto().includes('Cargue la carta de renuncia') && estado().solicitudes.length === antes, 'Renuncia sin carta: no se guarda');
+  /* Abandono */
+  setValor(d.getElementById('eg-motivo'), 'Abandono de trabajo'); await espera();
+  ok(Boolean(d.getElementById('eg-ultimo')) && texto().includes('nunca regresó'), 'Abandono: pide último día y declaración de que nunca regresó');
+  setValor(d.getElementById('eg-detalle'), 'No se presenta, no responde llamadas.'); await espera();
+  await click(boton('Reportar egreso'));
+  ok(texto().includes('Indique el último día') && texto().includes('Debe confirmar que el trabajador nunca regresó') && estado().solicitudes.length === antes, 'Abandono sin último día ni declaración: no se guarda');
+  const hoy = new Date(); const ult = new Date(hoy.getTime() - 5 * 86400000).toISOString().slice(0, 10);
+  setValor(d.getElementById('eg-ultimo'), ult); await espera();
+  await click(d.querySelector('input[type=checkbox]')); await click(boton('Reportar egreso')); await espera(300);
+  const sols = estado().solicitudes; const nueva = sols.find((s) => s.trabajadorId === trabId && s.tipo === 'DESINCORPORACION' && s.datosPropuestos.abandono);
+  ok(sols.length === antes + 1 && Boolean(nueva), 'Abandono declarado: se crea la desincorporación');
+  ok(nueva && nueva.datosPropuestos.motivoEgreso === 'Abandono de trabajo' && nueva.datosPropuestos.abandono.noRegreso === true && nueva.datosPropuestos.abandono.ultimoDiaTrabajado === ult && nueva.datosPropuestos.abandono.declaradoPor, 'Guarda último día, declaración y quién la hizo');
+  ok(nueva && nueva.estado === 'PENDIENTE' && nueva.pasos.length >= 3, 'Queda pendiente con su ruta de aprobación');
+  ok(texto().includes('Nunca regresó'), 'Aparece en «Egresos reportados» marcada como nunca regresó');
+  /* Renuncia con carta (adjunto simulado) */
+  const opts2 = [...d.getElementById('eg-trab').options].filter((o) => o.value);
+  ok(!opts2.some((o) => o.value === trabId), 'El trabajador con egreso abierto ya no se ofrece');
+  const t2 = opts2[0].value;
+  setValor(d.getElementById('eg-trab'), t2); setValor(d.getElementById('eg-motivo'), 'Renuncia voluntaria'); await espera();
+  setValor(d.getElementById('eg-detalle'), 'Presentó su renuncia con preaviso.'); await espera();
+  const inp = d.getElementById('eg-archivo');
+  const archivo = new w.File([new Uint8Array([37, 80, 68, 70])], 'renuncia.pdf', { type: 'application/pdf' });
+  Object.defineProperty(inp, 'files', { value: [archivo], configurable: true });
+  inp.dispatchEvent(new w.Event('change', { bubbles: true })); await espera(300);
+  ok(texto().includes('renuncia.pdf'), 'Muestra el documento seleccionado');
+  await click(boton('Reportar egreso')); await espera(300);
+  const r = estado().solicitudes.find((s) => s.trabajadorId === t2 && s.tipo === 'DESINCORPORACION');
+  ok(Boolean(r) && r.datosPropuestos.documento && r.datosPropuestos.documento.nombre === 'renuncia.pdf' && r.datosPropuestos.motivoEgreso === 'Renuncia voluntaria', 'Renuncia con carta: guarda el documento y el motivo');
+  ok(Boolean(boton('Descargar')), 'El documento puede descargarse');
+})();

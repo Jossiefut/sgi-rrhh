@@ -1,0 +1,55 @@
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const html = '<!doctype html><html><head></head><body>' + fs.readFileSync('talento-balu.html', 'utf8') + '</body></html>';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const espera = (ms = 40) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  const dom = new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true, url: 'https://ejemplo.test/', beforeParse(w) { w.scrollTo = () => {}; w.URL.createObjectURL = () => 'blob:x'; w.URL.revokeObjectURL = () => {}; } });
+  await espera(300); const w = dom.window, d = w.document;
+  const click = async (el) => { if (!el) throw new Error('falta elemento'); el.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(150); };
+  const boton = (t, i = 0) => [...d.querySelectorAll('button')].filter((x) => x.textContent.trim().includes(t))[i];
+  const nav = (t) => [...d.querySelectorAll('aside nav button')].find((b) => b.textContent.trim().startsWith(t));
+  const texto = () => d.body.textContent;
+  const entrar = async (rol) => { if (boton('Salir')) await click(boton('Salir')); await click(boton(rol, 0)); await espera(200); };
+  await entrar('Gerente de RRHH');
+  await click(nav('Informes'));
+  ok(texto().includes('Cumplimiento legal: 5% de la plantilla') && texto().includes('Personal con discapacidad') && texto().includes('Aprendices INCES') && texto().includes('Total consolidado'), 'RRHH ve el cumplimiento legal en el informe global');
+  ok(/de \d+/.test(texto()) && texto().includes('Requeridos (5%)'), 'Muestra requeridos al 5%');
+  const antes = (texto().match(/Aprendices INCES\s*(\d+) de/) || [])[1];
+  await click(boton('Aprendices INCES', 0));
+  const cajas = [...d.querySelectorAll('[role=dialog] input[type=checkbox], .fixed input[type=checkbox]')];
+  ok(cajas.length > 5, 'RRHH puede marcar aprendices INCES');
+  await click(cajas[1]); await click(cajas[2]);
+  await click(boton('Listo'));
+  const despues = (texto().match(/Aprendices INCES\s*(\d+) de/) || [])[1];
+  ok(Number(despues) === Number(antes) + 2, `El indicador de aprendices sube de ${antes} a ${despues}`);
+  // columnas mes/año
+  await click(nav('Informes')); await click([...d.querySelectorAll('[role=tab]')].find((b) => b.textContent.trim() === 'Descargas en Excel'));
+  const libros = [];
+  w.XLSX = { utils: { aoa_to_sheet: (aoa) => ({ aoa }), book_new: () => ({ hojas: [] }), book_append_sheet: (l, h, n) => l.hojas.push({ n, aoa: h.aoa }) }, write: (l) => { libros.push(l); return new Uint8Array(4); } };
+  await click(boton('Descargar libro completo')); await espera(400);
+  const lib = libros[0];
+  const cu = lib.hojas.find((h) => h.n.startsWith('Cumplimiento'));
+  ok(cu && cu.aoa[0].includes('Aprendices INCES') && cu.aoa[0].includes('En CONAPDIS'), 'Hoja de cumplimiento legal en el libro');
+  const pl = lib.hojas.find((h) => h.n === 'Plantilla');
+  const h0 = pl.aoa[0];
+  ['Mes de ingreso', 'Año de ingreso', 'Mes de egreso', 'Año de egreso'].forEach((c) => ok(h0.includes(c), `Plantilla trae «${c}»`));
+  const iM = h0.indexOf('Mes de ingreso'), iA = h0.indexOf('Año de ingreso'), iF = h0.indexOf('Fecha de ingreso');
+  const f = pl.aoa.find((r, i) => i > 0 && r[iF]);
+  const meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+  ok(f && meses[Number(String(f[iF]).slice(5, 7)) - 1] === f[iM] && f[iA] === Number(String(f[iF]).slice(0, 4)), `Mes y año en letras coinciden con la fecha (${f && f[iF]} → ${f && f[iM]} ${f && f[iA]})`);
+  const hi = lib.hojas.find((h) => h.n.startsWith('Histórico'));
+  ok(Boolean(hi), 'Hoja «Histórico de actividad por trabajador» en el libro');
+  const hh = hi ? hi.aoa[0] : [];
+  ['Género', 'Fecha de nacimiento', 'Edad al reporte', 'Nivel educativo', 'Talla de camisa', 'Talla de pantalón', 'Talla de calzado', 'Mes de ingreso', 'Año de ingreso', 'Mes de egreso', 'Año de egreso', 'Evaluaciones realizadas', 'Evaluaciones aprobadas', 'Considerado en plan de sucesión', 'Amonestaciones', 'Pernoctas aprobadas', 'Recibió incentivos de ventas', 'Mes del reporte', 'Año del reporte'].forEach((c) => ok(hh.includes(c), `Histórico trae «${c}»`));
+  const iE = hh.indexOf('Evaluaciones realizadas'), iAp = hh.indexOf('Evaluaciones aprobadas'), iR = hh.indexOf('Año del reporte');
+  ok(hi && hi.aoa.slice(1).some((r) => r[iE] > 0) && hi.aoa.slice(1).every((r) => r[iAp] <= r[iE]), 'Evaluaciones totalizadas por trabajador (aprobadas ≤ realizadas)');
+  ok(hi && hi.aoa.slice(1).every((r) => r[iR] === new Date().getFullYear()), 'Año del reporte en cada fila');
+  ok(hi && hi.aoa.length - 1 === pl.aoa.length - 1, 'Una fila por trabajador (igual que la plantilla)');
+  ok(lib.hojas.filter((h) => h.n !== 'Autenticación').every((h) => h.aoa.every((r) => r.length === h.aoa[0].length)), 'Todas las filas cuadran con el encabezado');
+  for (const [rol, ve] of [['Gerente General', true], ['Gerente de Marca', false], ['Gerente de Operaciones', false]]) {
+    await entrar(rol); await click(nav('Informes'));
+    ok(texto().includes('Cumplimiento legal: 5%') === ve, `${rol}: ${ve ? 've' : 'no ve'} el cumplimiento legal`);
+  }
+  process.exit(process.exitCode || 0);
+})();

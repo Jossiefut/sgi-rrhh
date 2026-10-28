@@ -1,0 +1,32 @@
+const { JSDOM } = require('jsdom');
+const fs = require('fs');
+const html = '<!doctype html><html><head></head><body>' + fs.readFileSync('talento-balu.html', 'utf8') + '</body></html>';
+const ok = (c, m) => { console.log((c ? '✓ ' : '✗ ') + m); if (!c) process.exitCode = 1; };
+const espera = (ms = 40) => new Promise((r) => setTimeout(r, ms));
+const cab = ['Id','Hora de inicio','Hora de finalización','Correo electrónico','Nombre','Coloque sus nombres completos','Coloque sus Apellidos Completos','Género','Cédula de Identidad','Nacionalidad','Nacionalidad1','Zurdo','Numero de RIF','Fecha de Nacimiento','Tipo de Vivienda','Estado Civil'];
+const fila = ['1','7/30/26 10:00:00','7/30/26 10:05:00','a@b.com','x','Carla Elena','Ficticia Prueba','Femenino','V-28333444','Venezolano','','No','V283334449','1996-03-12','Alquilada','Soltero(a)'];
+const texto0 = '## Hoja1\n' + cab.join('\t') + '\n' + fila.join('\t') + '\n';
+(async () => {
+  const dom = new JSDOM(html, { runScripts: 'dangerously', pretendToBeVisual: true, url: 'https://ejemplo.test/', beforeParse(w) {
+    w.scrollTo = () => {};
+    w.claude = { use: async (n) => (n === 'mcp' ? { callTool: async () => ({ payload: texto0 }) } : null) };
+  } });
+  await espera(300); const w = dom.window, d = w.document;
+  const click = async (el) => { const _e = [...d.querySelectorAll('button')].find((b) => b.textContent.trim() === 'Entendido'); if (_e && _e !== el) { _e.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(100); }  if (!el) throw new Error('falta elemento'); el.dispatchEvent(new w.MouseEvent('click', { bubbles: true })); await espera(200); };
+  const boton = (t, i = 0) => [...d.querySelectorAll('button')].filter((x) => x.textContent.trim().includes(t))[i];
+  const texto = () => d.body.textContent;
+  const setValor = (el, v) => { Object.getOwnPropertyDescriptor(w.HTMLInputElement.prototype, 'value').set.call(el, v); el.dispatchEvent(new w.Event('input', { bubbles: true })); };
+  await click(boton('Gerente de RRHH', 0)); await espera(300);
+  await click(boton('Nuevo ingreso'));
+  setValor(d.getElementById('bus-numero'), '28333444'); await espera(); await click(boton('Buscar')); await espera(300);
+  ok(d.getElementById('in-nombres') && d.getElementById('in-nombres').value === 'Carla Elena', 'Lee el repositorio en vivo y llena los nombres');
+  ok(texto().includes('Ficha del trabajador (datos del repositorio)'), 'Aparece la ficha del trabajador');
+  ok(Boolean(boton('Ver y descargar ficha en PDF')), 'Botón visible «Ver y descargar ficha en PDF»');
+  await click(boton('Ver y descargar ficha en PDF'));
+  await click(boton('Vista del documento')); await espera(300); const dl = d.querySelector('[role=dialog]'); console.log(dl ? (dl.textContent.slice(0,80) + ' | iframes ' + dl.querySelectorAll('iframe').length) : 'sin dialogo'); ok(Boolean(dl) && (/Carla Elena/.test(dl.innerHTML) || [...dl.querySelectorAll('iframe')].some((i) => /Carla Elena/.test(i.srcdoc || ''))), 'El visor muestra la ficha con los datos');
+  await click(boton('Salir')); await click(boton('Gerente de RRHH', 0)); await espera(300);
+  await click(boton('Sincronización'));
+  await click([...d.querySelectorAll('[role=tab]')].find((b) => b.textContent.includes('Entrevistas de salida')));
+  ok(Boolean(boton('Leer resultados de la encuesta de salida ahora')), 'Botón de lectura de la encuesta de salida');
+  process.exit(process.exitCode || 0);
+})();
